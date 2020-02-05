@@ -26,21 +26,11 @@ export function AboutScreen() {
                   </div>
                 </div>
                 <div className="col-lg-9 col-sm-8">
-                  <h4>Alex Smith </h4>
+                    <h4>{DB.username}</h4>
                   <div className="loc">
-                    <i className="fas fa-map-marked-alt"></i> New York, USA
-														</div>
-                  <p>Hello! I’m Alex Smith _ self-taught & award winning _______
-                    Designer & Developer with ____ five years work __________. I
-                    started in my ________’_ room, got pro at ________ digital
-                    agencies akij co ___ nork blue lebel. Now _’_ based in USA,
-                    America, _______ for Apple fredmansky and ________ the life
-                    in the ___________.
-														</p>
-                  <p>I have couple of _______ but I like to ______. I have already
-                    travelled ______ all the districts of ___ country with my
-                    father. _ am fond of fruit.
-														</p>
+                    <i className="fas fa-map-marked-alt"></i> {DB.city}
+									</div>
+                  <p>{DB.description}</p>
                 </div>
 
                 <div className="col-lg-3 col-sm-4">

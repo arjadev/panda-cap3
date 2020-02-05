@@ -492,6 +492,7 @@ strong { font-weight: bold }
 .color-grey  { color:#ccc }
 .color-dark  { color:#000 }
 .color-white { color:#fff }
+.color-main  { color:#25CA7F }
 
 .bg-blue  { background-color:#23bdc3 }
 .bg-green { background-color:#59bf00 }

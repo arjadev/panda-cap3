@@ -1775,7 +1775,7 @@ blockquote:before,
 .pt-blog .blog-item {
 	position: relative;
 	padding: 0 20px 20px;
-	margin-bottom: 50px;
+	margin-bottom: 35px;
 	background-color: rgba(0, 0, 0, .5);
 	-webkit-transition: all .3s ease-in-out;
 			transition: all .3s ease-in-out;

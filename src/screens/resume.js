@@ -1,18 +1,6 @@
 import React from 'react'
 import { ExperienceItem } from '../components/resume/experienceItem'
-
-const RESUME_EXPERIENCE = [
-    {
-        title: 'Web Design',
-        calendar: '2012 - 2014',
-        description: 'Work experience is essential getting a job. Whether a short work placement a longer internship, work is always viewed favourably employers and can help decide your future career. '
-    },
-    {
-        title: 'Frontend Developer',
-        calendar: '2014 - 2015',
-        description: 'Work experience is essential getting a job. Whether a short work placement a longer internship, work is always viewed favourably employers and can help decide your future career. '
-    }
-]
+import { DB } from '../utils/db'
 
 export function ResumeScreen() {
     return (
@@ -33,7 +21,7 @@ export function ResumeScreen() {
                         </div>
 
                         <div className="experience box-1">
-                            {RESUME_EXPERIENCE.map((item, index) => <ExperienceItem
+                            {DB.myResum.map((item, index) => <ExperienceItem
                                 key={index}
                                 title={item.title}
                                 calendar={item.calendar}
@@ -51,12 +39,12 @@ export function ResumeScreen() {
                         <div className="experience box-2">
 
                             <div className="experience box-1">
-                                {RESUME_EXPERIENCE.map((item, index) => <ExperienceItem
+                                {/* {RESUME_EXPERIENCE.map((item, index) => <ExperienceItem
                                     key={index}
                                     title={item.title}
                                     calendar={item.calendar}
                                     description={item.description}
-                                />)}
+                                />)} */}
                             </div>
                         </div>
                     </div>
@@ -159,14 +147,14 @@ export function ResumeScreen() {
                             <div className="single-wp width-sm process-1">
                                 <p className="wp-step">01 </p>
                                 <h4 className="wp-title">Discuss idea </h4>
-                                <p>I could describe these ___________, also impress upon paper ___
+                                <p>I could describe these , also impress upon paper 
 														that is living. </p>
                             </div>
 
                             <div className="single-wp width-sm process-2">
                                 <p className="wp-step">02 </p>
                                 <h4 className="wp-title">Creative concept </h4>
-                                <p>I could describe these ___________, also impress upon paper ___
+                                <p>I could describe these , also impress upon paper 
 														that is living. </p>
                             </div>
                         </div>
@@ -187,14 +175,14 @@ export function ResumeScreen() {
                             <div className="single-wp width-sm process-3">
                                 <p className="wp-step">03 </p>
                                 <h4 className="wp-title">Web concept </h4>
-                                <p>I could describe these ___________, also impress upon paper ___
+                                <p>I could describe these , also impress upon paper 
 														that is living. </p>
                             </div>
 
                             <div className="single-wp width-sm process-4">
                                 <p className="wp-step">04 </p>
                                 <h4 className="wp-title">Final concept </h4>
-                                <p>I could describe these ___________, also impress upon paper ___
+                                <p>I could describe these , also impress upon paper 
 														that is living. </p>
                             </div>
                         </div>
