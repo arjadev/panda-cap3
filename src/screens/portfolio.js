@@ -16,6 +16,7 @@ export function PortfolioScreen() {
                         <ul>
                             <li className="active" data-filter="*">All </li>
                             <li data-filter=".React-Native">React-Native </li>
+                            <li data-filter=".React">React </li>
                             <li data-filter=".Angular">Angular </li>
                             <li data-filter=".Django">Django </li>
                             <li data-filter=".Node">Node </li>
