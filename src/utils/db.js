@@ -59,7 +59,7 @@ export const DB = {
     ],
     myProjects: [
      
-        {name:'Festfood', skill: 'React', img: 'img/portfolio/react-1.PNG'},
+        {name:'Festfood', skill: 'React', img: 'img/portfolio/react-1.png'},
         {name:'Finviz', skill: 'React', img: 'img/portfolio/react-2.JPG'},
         {name:'Lootboxcash', skill: 'React', img: 'img/portfolio/react-3.png'},
         {name:'Obe', skill: 'React', img: 'img/portfolio/react-4.PNG'},
@@ -69,17 +69,9 @@ export const DB = {
         {name:'Stanza', skill: 'React', img: 'img/portfolio/react-8.JPG'},
         {name:'Vistajet', skill: 'React', img: 'img/portfolio/react-9.PNG'},
 
-        {name:'Hospital', skill: 'Node', img: 'img/portfolio/img-5.jpg'},
-        {name:'UK Software', skill: 'Node', img: 'img/portfolio/img-2.jpg'},
-
-        {name:'Desert', skill: 'Django', img: 'img/portfolio/img-3.jpg'},
-        {name:'Toy Story', skill: 'PHP', img: 'img/portfolio/img-4.jpg'},
-
         {name:'Ambitious', skill: 'Devops', img: 'img/portfolio/img-7.jpg'},
         {name:'Google Cloud Platform', skill: 'Devops', img: 'img/portfolio/gcp.webp'},
 
-        {name:'Desert', skill: 'Vue', img: 'img/portfolio/img-8.jpg'},
-        {name:'Cookaid', skill: 'Angular', img: 'img/portfolio/img-9.jpg'},
 
         {name:'CookAid', skill: 'React-Native', img: 'img/portfolio/rn-2.jpg'},
         {name:'CloudMustic', skill: 'React-Native', img: 'img/portfolio/rn-1.png'},
