@@ -59,7 +59,7 @@ export const DB = {
     ],
     myProjects: [
      
-        {name:'Festfood', skill: 'React', img: 'img/portfolio/react-1.png'},
+        {name:'Festfood', skill: 'React', img: 'img/portfolio/react-1.PNG'},
         {name:'Finviz', skill: 'React', img: 'img/portfolio/react-2.JPG'},
         {name:'Lootboxcash', skill: 'React', img: 'img/portfolio/react-3.png'},
         {name:'Obe', skill: 'React', img: 'img/portfolio/react-4.PNG'},
