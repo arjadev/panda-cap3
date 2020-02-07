@@ -797,7 +797,7 @@ blockquote span img {
 	position: absolute;
     width: 16px;
     height: 16px;
-    top: 0;
+    top: 10px;
     left: 0;
     border: 2px solid #fff;
     -webkit-border-radius: 50px 50px 0;
@@ -1181,7 +1181,6 @@ blockquote:before,
 			border-radius: 100%;
 	border: 1px solid #fff;
 	margin-right: 15px;
-	margin-top: 12px;
 }
 
 .pt-about .desc-icon h6 {
@@ -1225,7 +1224,6 @@ blockquote:before,
 	color: #fff;
 	font-size: 20px;
 	margin-right: 30px;
-	margin-top: 10px;
 }
 
 .pt-about .inter-icon i:after {
@@ -1432,7 +1430,7 @@ blockquote:before,
 	position: absolute;
 	width: 20px;
 	height: 1px;
-	top: 31px;
+	top: 21px;
 	left: 6px;
 	background-color: #fff;
 }
