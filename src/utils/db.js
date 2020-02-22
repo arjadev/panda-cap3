@@ -38,12 +38,12 @@ export const DB = {
         {title: 'ERP', icon: 'fas fa-database', 'description': 'I have experience in following SAP modules, MM, PP, SD, PM.'},
     ],
     myBlogs: [
-        {img: 'img/blog/img-1.jpg', description: 'Tower Hamlets or mass members of propaganda bananas estate. However, a large a mourning, vel euismod. '},
-        {img: 'img/blog/img-2.jpg', },
-        {img: 'img/blog/img-3.jpg', },
-        {img: 'img/blog/img-4.jpg', description: 'Tower Hamlets or mass members of propaganda bananas estate. However, a large a mourning, vel euismod. '},
-        {img: 'img/blog/img-5.jpg', description: 'Hello. please'},
-        {img: 'img/blog/img-6.jpg', description: 'Tower Hamlets or mass members of propaganda bananas estate. However, a large a mourning, vel euismod. '}
+        {img: 'img/packages/1.jpg', description: 'Tower Hamlets or mass members of propaganda bananas estate. However, a large a mourning, vel euismod. '},
+        {img: 'img/packages/1.png', },
+        {img: 'img/packages/2.gif', },
+        {img: 'img/packages/3.png', description: 'Tower Hamlets or mass members of propaganda bananas estate. However, a large a mourning, vel euismod. '},
+        {img: 'https://cloud.githubusercontent.com/assets/139536/25066337/3c9d44c0-224d-11e7-8ca6-028478bf4a7d.gif', description: 'Hello. please'},
+        {img: 'https://github.com/ivpusic/react-native-image-crop-picker/raw/master/images/ios_single_pick.png', description: 'Tower Hamlets or mass members of propaganda bananas estate. However, a large a mourning, vel euismod. '}
     ],
     myResum : [
         {

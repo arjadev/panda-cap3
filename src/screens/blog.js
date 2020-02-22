@@ -1,28 +1,27 @@
 import React from 'react'
-import { DB } from '../utils/db'
+import myBlogs from '../utils/rn.json';
+
 export function BlogScreen() {
     return (
         <div className="page pt-blog" data-simplebar="">
             <section className="container">
 
                 <div className="header-page mt-70 mob-mt">
-                    <h2>Blog</h2>
+                    <h2>Packages</h2>
                     <span></span>
                 </div>
 
                 <div className="row blog-masonry mt-100 mb-50">
 
                     {
-                        DB.myBlogs.map((item, index) =>
-                            <div key={index} className="col-lg-4 col-sm-6">
+                        myBlogs.map((item, index) =>
+                            <div key={index} className="col-lg-3 col-sm-6">
                                 <div className="blog-item">
                                     <div className="thumbnail">
                                         <img alt=""
-                                            src={item.img} />
+                                            src={'/img/rn/' + item.FIELD5} />
                                     </div>
-                                    <h4>Get Source Code </h4>
-                                    <p>{item && item.description}</p>
-
+                                    <p><a href={'https://www.npmjs.com/package/' + item.Repository} target="_blank" rel="noopener noreferrer">{item.Repository}</a></p>
                                 </div>
                             </div>)
                     }

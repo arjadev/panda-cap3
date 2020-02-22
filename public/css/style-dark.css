@@ -1770,7 +1770,7 @@ blockquote:before,
 --------------------------------- */
 .pt-blog .blog-item {
 	position: relative;
-	padding: 0 20px 20px;
+	padding: 12px 20px 6px;
 	margin-bottom: 35px;
 	background-color: rgba(0, 0, 0, .5);
 	-webkit-transition: all .3s ease-in-out;
@@ -1782,11 +1782,15 @@ blockquote:before,
 			transform: translateY(-3px) scale(1.01);
 }
 
-.pt-blog .blog-item h4 {
+.pt-blog .blog-item p {
 	font-weight: 600;
 	text-align: center;
-	text-transform: uppercase;
-	margin: 30px 0;
+	margin: 5px 0;
+	color:  '#fff';
+
+}
+.pt-blog .blog-item p:hover {
+	cursor: pointer;
 }
 
 .pt-blog .blog-item .thumbnail {
