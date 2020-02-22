@@ -84,10 +84,6 @@
     "FIELD5": "react-native-foldview.gif"
   },
   {
-    "Repository": "react-native-mapbox-gl",
-    "FIELD5": "react-native-mapbox-gl.svg"
-  },
-  {
     "Repository": "react-native-fast-image",
     "FIELD5": "react-native-fast-image.gif"
   },
@@ -725,10 +721,6 @@
     "FIELD5": "react-native-square-view.png"
   },
   {
-    "Repository": "react-native-focus-scroll",
-    "FIELD5": "react-native-focus-scroll.gif"
-  },
-  {
     "Repository": "react-native-draggable-calendar",
     "FIELD5": "react-native-draggable-calendar.gif"
   },
@@ -803,5 +795,9 @@
   {
     "Repository": "react-native-custom-actionsheet",
     "FIELD5": "react-native-custom-actionsheet.gif"
+  },
+  {
+    "Repository": "react-native-focus-scroll",
+    "FIELD5": "react-native-focus-scroll.gif"
   }
  ]
