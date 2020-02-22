@@ -1,5 +1,5 @@
 import React from 'react'
-import myBlogs from '../utils/rn.json';
+import rnInput from '../utils/rn/input.json';
 
 export function BlogScreen() {
     return (
@@ -14,7 +14,7 @@ export function BlogScreen() {
                 <div className="row blog-masonry mt-100 mb-50">
 
                     {
-                        myBlogs.map((item, index) =>
+                        rnInput.map((item, index) =>
                             <div key={index} className="col-lg-3 col-sm-6">
                                 <div className="blog-item">
                                     <div className="thumbnail">
