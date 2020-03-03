@@ -39,12 +39,12 @@ export function ResumeScreen() {
                         <div className="experience box-2">
 
                             <div className="experience box-1">
-                                {/* {RESUME_EXPERIENCE.map((item, index) => <ExperienceItem
+                                {DB.myEducation.map((item, index) => <ExperienceItem
                                     key={index}
                                     title={item.title}
                                     calendar={item.calendar}
                                     description={item.description}
-                                />)} */}
+                                />)}
                             </div>
                         </div>
                     </div>
@@ -64,7 +64,7 @@ export function ResumeScreen() {
                         <div className="col-lg-6 col-sm-6">
 
                             <div className="skill-item">
-                                <h4 className="progress-title">HTML5 </h4>
+                                <h4 className="progress-title">React-Native </h4>
                                 <div className="progress">
                                     <div className="progress-bar width-98" >
                                         <div className="progress-value">98% </div>
@@ -73,7 +73,7 @@ export function ResumeScreen() {
                             </div>
 
                             <div className="skill-item">
-                                <h4 className="progress-title">CSS3 </h4>
+                                <h4 className="progress-title">Angular.JS </h4>
                                 <div className="progress">
                                     <div className="progress-bar width-85" >
                                         <div className="progress-value">85% </div>
@@ -82,7 +82,7 @@ export function ResumeScreen() {
                             </div>
 
                             <div className="skill-item">
-                                <h4 className="progress-title">JavaScript </h4>
+                                <h4 className="progress-title">React.JS </h4>
                                 <div className="progress">
                                     <div className="progress-bar width-90" >
                                         <div className="progress-value">90% </div>
@@ -91,7 +91,7 @@ export function ResumeScreen() {
                             </div>
 
                             <div className="skill-item">
-                                <h4 className="progress-title">UI/UX designer </h4>
+                                <h4 className="progress-title">Vue.JS </h4>
                                 <div className="progress">
                                     <div className="progress-bar width-77" >
                                         <div className="progress-value">77% </div>
@@ -104,26 +104,26 @@ export function ResumeScreen() {
                             <div className="row">
 
                                 <div className="col-lg-6 col-sm-6">
-                                    <div className="chart" data-percent="80" data-bar-color="#fff"> 80%
+                                    <div className="chart" data-percent="92" data-bar-color="#fff"> 92%
+															<p>Node </p>
+                                    </div>
+                                </div>
+
+                                <div className="col-lg-6 col-sm-6">
+                                    <div className="chart" data-percent="88" data-bar-color="#fff"> 88%
 															<p>PHP </p>
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-sm-6">
-                                    <div className="chart" data-percent="70" data-bar-color="#fff"> 70%
-															<p>Illustrator </p>
+                                    <div className="chart" data-percent="87" data-bar-color="#fff"> 87%
+															<p>Java Spring </p>
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-sm-6">
-                                    <div className="chart" data-percent="60" data-bar-color="#fff"> 60%
-															<p>Photoshop </p>
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-6 col-sm-6">
-                                    <div className="chart" data-percent="90" data-bar-color="#fff"> 90%
-															<p>AngularJS </p>
+                                    <div className="chart" data-percent="95" data-bar-color="#fff"> 95%
+															<p>Python </p>
                                     </div>
                                 </div>
                             </div>

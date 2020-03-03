@@ -2,7 +2,6 @@ import React from 'react'
 import { InterestItem } from '../components/about/InterestItem'
 import { ServiceItem } from '../components/about/ServiceItem'
 import { TestimonialsItem } from '../components/about/testimonialsItem'
-import { PriceItem } from '../components/about/PriceItem'
 import { DB } from '../utils/db'
 
 export function AboutScreen() {
@@ -144,29 +143,6 @@ export function AboutScreen() {
 
         <div className="row mt-100 mb-60">
 
-          <div className="col-md-12">
-            <div className="header-box mb-90">
-              <h3>Price </h3>
-            </div>
-          </div>
-
-          <PriceItem 
-            title="Basic"
-            price="25"
-            skills={['Web Design', 'Web Development']}
-          />
-
-          <PriceItem 
-            title="Standard"
-            price="45"
-            skills={['Web Design', 'Web Development', 'Responsive Design']}
-          />
-
-          <PriceItem 
-            title="Premium"
-            price="75"
-            skills={['Web Design', 'Web Development', 'Responsive Design', 'Game Development']}
-          />
 
         </div>
       </section>

@@ -57,21 +57,16 @@ export const DB = {
             description: 'I have developed real estate platform, complex business platform etc using React js and SpringBoot 2.x'
         }
     ],
+    myEducation : [
+        {
+            title: 'Caraga State University',
+            calendar: '2007 - 2012',
+            description: 'I have graduated at Caraga State University from 2007 to 2012.'
+        }
+    ],
     myProjects: [
-     
-        {name:'Festfood', skill: 'React', img: 'img/portfolio/react-1.PNG'},
-        {name:'Finviz', skill: 'React', img: 'img/portfolio/react-2.JPG'},
         {name:'Lootboxcash', skill: 'React', img: 'img/portfolio/react-3.png'},
-        {name:'Obe', skill: 'React', img: 'img/portfolio/react-4.PNG'},
         {name:'Quantax', skill: 'React', img: 'img/portfolio/react-5.JPG'},
-        {name:'Realtor', skill: 'React', img: 'img/portfolio/react-6.JPG'},
-        {name:'Simplilearn', skill: 'React', img: 'img/portfolio/react-7.JPG'},
-        {name:'Stanza', skill: 'React', img: 'img/portfolio/react-8.JPG'},
-        {name:'Vistajet', skill: 'React', img: 'img/portfolio/react-9.PNG'},
-
-        {name:'Ambitious', skill: 'Devops', img: 'img/portfolio/img-7.jpg'},
-        {name:'Google Cloud Platform', skill: 'Devops', img: 'img/portfolio/gcp.webp'},
-
     ],
 
     reactServices: [
@@ -84,6 +79,10 @@ export const DB = {
             name: 'Stripe Integration', 
             description: 'React Stripe.js Elements',
             url: 'https://stripe.com/docs/stripe-js/react?utm_campaign=React%2BNewsletter&utm_medium=web&utm_source=React_Newsletter_201'
+        },
+        {
+            name: 'React.js to Next.js', 
+            description: 'Converting from react.js to next.js',
         },
     ]
 }
