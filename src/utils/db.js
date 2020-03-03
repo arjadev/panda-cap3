@@ -72,12 +72,18 @@ export const DB = {
         {name:'Ambitious', skill: 'Devops', img: 'img/portfolio/img-7.jpg'},
         {name:'Google Cloud Platform', skill: 'Devops', img: 'img/portfolio/gcp.webp'},
 
+    ],
 
-        {name:'CookAid', skill: 'React-Native', img: 'img/portfolio/rn-2.jpg'},
-        {name:'CloudMustic', skill: 'React-Native', img: 'img/portfolio/rn-1.png'},
-        {name:'DailyJoke', skill: 'React-Native', img: 'img/portfolio/rn-3.png'},
-        {name:'Vagalume', skill: 'React-Native', img: 'img/portfolio/rn-4.jpg'},
-
-
+    reactServices: [
+        {
+            name: 'React Package Update', 
+            description: 'React v16.13.0 released',
+            url: 'https://reactjs.org/blog/2020/02/26/react-v16.13.0.html?utm_campaign=React%2BNewsletter&utm_medium=web&utm_source=React_Newsletter_201'
+        },
+        {
+            name: 'Stripe Integration', 
+            description: 'React Stripe.js Elements',
+            url: 'https://stripe.com/docs/stripe-js/react?utm_campaign=React%2BNewsletter&utm_medium=web&utm_source=React_Newsletter_201'
+        },
     ]
 }

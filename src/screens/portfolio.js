@@ -15,7 +15,6 @@ export function PortfolioScreen() {
                     <div className="col-lg-12 col-sm-12 portfolio-filter">
                         <ul>
                             <li className="active" data-filter="*">All </li>
-                            <li data-filter=".React-Native">React-Native </li>
                             <li data-filter=".React">React </li>
                             <li data-filter=".Angular">Angular </li>
                             <li data-filter=".Django">Django </li>
