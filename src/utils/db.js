@@ -139,7 +139,7 @@ export const DB = {
         { 
             name: 'Quantax', 
             skill: 'React', 
-            img: 'img/portfolio/quantaex/0.JPG', 
+            img: 'img/portfolio/quantaex/0.jpg', 
             apps: [
                'img/portfolio/quantaex/1.JPG',
                'img/portfolio/quantaex/2.JPG',
@@ -193,7 +193,7 @@ export const DB = {
         { 
             name: 'Stanza', 
             skill: 'React', 
-            img: 'img/portfolio/stanza/0.JPG', 
+            img: 'img/portfolio/stanza/0.jpg', 
             apps: [
                'img/portfolio/stanza/1.JPG',
                'img/portfolio/stanza/2.JPG',
@@ -269,7 +269,7 @@ export const DB = {
         { 
             name: 'Shabingo', 
             skill: 'Django', 
-            img: 'img/portfolio/dj_shabingo/0.JPG', 
+            img: 'img/portfolio/dj_shabingo/0.jpg', 
             apps: [
                'img/portfolio/dj_shabingo/1.JPG',
                'img/portfolio/dj_shabingo/2.JPG',
@@ -281,13 +281,13 @@ export const DB = {
         { 
             name: 'Express', 
             skill: 'Django', 
-            img: 'img/portfolio/dj_express2015/0.JPG', 
+            img: 'img/portfolio/dj_express2015/0.jpg', 
             apps: [
-               'img/portfolio/dj_express2015/1.JPG',
-               'img/portfolio/dj_express2015/2.JPG',
-               'img/portfolio/dj_express2015/3.JPG',
-               'img/portfolio/dj_express2015/4.JPG',
-               'img/portfolio/dj_express2015/5.JPG',
+               'img/portfolio/dj_express2015/1.jpg',
+               'img/portfolio/dj_express2015/2.jpg',
+               'img/portfolio/dj_express2015/3.jpg',
+               'img/portfolio/dj_express2015/4.jpg',
+               'img/portfolio/dj_express2015/5.jpg',
             ]
         },
         { 
