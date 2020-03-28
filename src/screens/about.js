@@ -105,37 +105,38 @@ export function AboutScreen() {
 
           <div className="col-md-12">
             <div className="header-box mb-50">
-              <h3>Testimonials </h3>
+              <h3>Feedbacks </h3>
             </div>
           </div>
 
           <div className="owl-carousel owl-theme">
 
             <TestimonialsItem 
-              name="John Doe" 
-              job="Web Development" 
+              name="Shiva Kumar Ramachandran" 
+              job="Rect Native iOS App to be complied and make it working" 
               avatar="img/testimonials/testimonial-1.jpg"
-              description="Curabitur eleifend tempor gnceleris placeratvel phasellus
-              eget sem just consequat gestas facilisis eleifend tempor
-              metus sem just metup gestas facilisis eleifend posures temporureture."
+              description="Excellent communication, understood the details of the project very quick. Excellent coding skills. Very good technical skills. Will hire him again for more work."
             />
 
             <TestimonialsItem 
-              name="Alex Doe" 
-              job="UI/UX Designer" 
-              avatar="img/testimonials/testimonial-2.jpg"
-              description="Curabitur eleifend tempor gnceleris placeratvel phasellus
-              eget sem just consequat gestas facilisis eleifend tempor
-              metus sem just metup gestas facilisis eleifend posures temporureture."
+              name="Mac Tichner" 
+              job="Create a react native mobile application prototype from designs" 
+              avatar="img/testimonials/testimonial-1.jpg"
+              description="Junel is the best developer I have worked with on this platform and has incredible talent for react native.
+
+              He is extremely responsive and turns around high quality work fast.
+              
+              I will 100% use him for future projects."
             />
 
             <TestimonialsItem 
-              name="David Doe" 
-              job="Hybrid Development" 
-              avatar="img/testimonials/testimonial-3.jpg"
-              description="Curabitur eleifend tempor gnceleris placeratvel phasellus
-              eget sem just consequat gestas facilisis eleifend tempor
-              metus sem just metup gestas facilisis eleifend posures temporureture."
+              name="Steve Kinuthia" 
+              job="Need a react expert" 
+              avatar="img/testimonials/testimonial-1.jpg"
+              description="Great developer.
+              He worked fast and resolved some issues in the good way.
+              Highly recommended.
+              I am sure that I will rehire him when I have any jobs."
             />
 
           </div>
