@@ -122,7 +122,7 @@ export const DB = {
         { 
             name: 'Lootboxcash', 
             skill: 'React', 
-            img: 'img/portfolio/lootboxcash/1.jpg', 
+            img: 'img/portfolio/lootboxcash/0.jpg', 
             apps: [
                 'img/portfolio/lootboxcash/1.jpg',
                 'img/portfolio/lootboxcash/2.jpg',
@@ -139,7 +139,7 @@ export const DB = {
         { 
             name: 'Quantax', 
             skill: 'React', 
-            img: 'img/portfolio/quantaex/1.JPG', 
+            img: 'img/portfolio/quantaex/0.JPG', 
             apps: [
                'img/portfolio/quantaex/1.JPG',
                'img/portfolio/quantaex/2.JPG',
@@ -156,7 +156,7 @@ export const DB = {
         { 
             name: 'Realtor', 
             skill: 'React', 
-            img: 'img/portfolio/realtor/1.jpg', 
+            img: 'img/portfolio/realtor/0.jpg', 
             apps: [
                'img/portfolio/realtor/1.jpg',
                'img/portfolio/realtor/2.jpg',
@@ -166,7 +166,7 @@ export const DB = {
         { 
             name: 'Obe', 
             skill: 'React', 
-            img: 'img/portfolio/obe/1.jpg', 
+            img: 'img/portfolio/obe/0.jpg', 
             apps: [
                'img/portfolio/obe/1.jpg',
                'img/portfolio/obe/2.jpg',
@@ -181,7 +181,7 @@ export const DB = {
         { 
             name: 'Festfood', 
             skill: 'React', 
-            img: 'img/portfolio/festfood/1.jpg', 
+            img: 'img/portfolio/festfood/0.jpg', 
             apps: [
                'img/portfolio/festfood/1.jpg',
                'img/portfolio/festfood/2.jpg',
@@ -193,7 +193,7 @@ export const DB = {
         { 
             name: 'Stanza', 
             skill: 'React', 
-            img: 'img/portfolio/stanza/1.JPG', 
+            img: 'img/portfolio/stanza/0.JPG', 
             apps: [
                'img/portfolio/stanza/1.JPG',
                'img/portfolio/stanza/2.JPG',
@@ -207,7 +207,7 @@ export const DB = {
         { 
             name: 'Vistajet', 
             skill: 'React', 
-            img: 'img/portfolio/vistajet/1.jpg', 
+            img: 'img/portfolio/vistajet/0.jpg', 
             apps: [
                'img/portfolio/vistajet/1.jpg',
                'img/portfolio/vistajet/2.jpg',
@@ -219,7 +219,7 @@ export const DB = {
         { 
             name: 'WaltorDrake', 
             skill: 'Angular', 
-            img: 'img/portfolio/walterdrake/1.jpg', 
+            img: 'img/portfolio/walterdrake/0.jpg', 
             apps: [
                'img/portfolio/walterdrake/1.jpg',
                'img/portfolio/walterdrake/2.jpg',
@@ -233,7 +233,7 @@ export const DB = {
         { 
             name: 'VPL', 
             skill: 'PHP', 
-            img: 'img/portfolio/vpl/1.jpg', 
+            img: 'img/portfolio/vpl/0.jpg', 
             apps: [
                'img/portfolio/vpl/1.jpg',
                'img/portfolio/vpl/2.jpg',
@@ -247,7 +247,7 @@ export const DB = {
         { 
             name: 'ERP School', 
             skill: 'Django', 
-            img: 'img/portfolio/dj_erp/1.jpg', 
+            img: 'img/portfolio/dj_erp/0.jpg', 
             apps: [
                'img/portfolio/dj_erp/1.jpg',
                'img/portfolio/dj_erp/2.jpg',
@@ -269,7 +269,7 @@ export const DB = {
         { 
             name: 'Shabingo', 
             skill: 'Django', 
-            img: 'img/portfolio/dj_shabingo/1.JPG', 
+            img: 'img/portfolio/dj_shabingo/0.JPG', 
             apps: [
                'img/portfolio/dj_shabingo/1.JPG',
                'img/portfolio/dj_shabingo/2.JPG',
@@ -281,7 +281,7 @@ export const DB = {
         { 
             name: 'Express', 
             skill: 'Django', 
-            img: 'img/portfolio/dj_express2015/1.JPG', 
+            img: 'img/portfolio/dj_express2015/0.JPG', 
             apps: [
                'img/portfolio/dj_express2015/1.JPG',
                'img/portfolio/dj_express2015/2.JPG',
@@ -293,7 +293,7 @@ export const DB = {
         { 
             name: 'Lifestyle', 
             skill: 'Vue', 
-            img: 'img/portfolio/vue_lifestyle/1.jpg', 
+            img: 'img/portfolio/vue_lifestyle/0.jpg', 
             apps: [
                'img/portfolio/vue_lifestyle/1.jpg',
                'img/portfolio/vue_lifestyle/2.jpg',
