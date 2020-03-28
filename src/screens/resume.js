@@ -1,5 +1,6 @@
 import React from 'react'
 import { ExperienceItem } from '../components/resume/experienceItem'
+import { HistoryItem } from '../components/resume/historyItem'
 import { DB } from '../utils/db'
 
 export function ResumeScreen() {
@@ -17,11 +18,11 @@ export function ResumeScreen() {
                     <div className="col-lg-6 col-sm-12">
 
                         <div className="header-box mb-50">
-                            <h3>Experience </h3>
+                            <h3>Education </h3>
                         </div>
 
                         <div className="experience box-1">
-                            {DB.myResum.map((item, index) => <ExperienceItem
+                            {DB.myEducation.map((item, index) => <ExperienceItem
                                 key={index}
                                 title={item.title}
                                 calendar={item.calendar}
@@ -33,18 +34,19 @@ export function ResumeScreen() {
                     <div className="col-lg-6 col-sm-12">
 
                         <div className="header-box mb-50 mob-box-mt">
-                            <h3>Education </h3>
+                            <h3> Experience </h3>
                         </div>
 
                         <div className="experience box-2">
 
-                            <div className="experience box-1">
-                                {DB.myEducation.map((item, index) => <ExperienceItem
-                                    key={index}
-                                    title={item.title}
-                                    calendar={item.calendar}
-                                    description={item.description}
-                                />)}
+                            <div className="experience box-1"> {DB.myResum.map((item, index) => <HistoryItem
+                                key={index}
+                                title={item.title}
+                                calendar={item.calendar}
+                                place={item.place}
+                                description={item.description}
+                            />)}
+
                             </div>
                         </div>
                     </div>
@@ -135,7 +137,7 @@ export function ResumeScreen() {
 
                     <div className="col-md-12">
                         <div className="header-box mb-50">
-                            <h3>My Working Process </h3>
+                            <h3>My Working Solutions </h3>
                         </div>
                     </div>
                 </div>
@@ -146,23 +148,23 @@ export function ResumeScreen() {
 
                             <div className="single-wp width-sm process-1">
                                 <p className="wp-step">01 </p>
-                                <h4 className="wp-title">Discuss idea </h4>
-                                <p>I could describe these , also impress upon paper 
-														that is living. </p>
+                                <h4 className="wp-title">Team idea </h4>
+                                <p>Happy working solo as well as in a team where members are effectivecoders too.
+</p>
                             </div>
 
                             <div className="single-wp width-sm process-2">
                                 <p className="wp-step">02 </p>
-                                <h4 className="wp-title">Creative concept </h4>
-                                <p>I could describe these , also impress upon paper 
-														that is living. </p>
+                                <h4 className="wp-title">Relationships </h4>
+                                <p>Build long term relationships with client's satisfication and developer's dilligent.
+ </p>
                             </div>
                         </div>
 
                         <div className="col-lg-4 hidden-sm">
 
                             <div className="wp-circle">
-                                <h4>Working Process </h4>
+                                <h4>Working Solutions </h4>
                                 <span className="dots top-l"></span>
                                 <span className="dots bottom-l"></span>
                                 <span className="dots top-r"></span>
@@ -174,16 +176,14 @@ export function ResumeScreen() {
 
                             <div className="single-wp width-sm process-3">
                                 <p className="wp-step">03 </p>
-                                <h4 className="wp-title">Web concept </h4>
-                                <p>I could describe these , also impress upon paper 
-														that is living. </p>
+                                <h4 className="wp-title">Main focus </h4>
+                                <p>My main focus is the best quality work within the timeframe!</p>
                             </div>
 
                             <div className="single-wp width-sm process-4">
                                 <p className="wp-step">04 </p>
-                                <h4 className="wp-title">Final concept </h4>
-                                <p>I could describe these , also impress upon paper 
-														that is living. </p>
+                                <h4 className="wp-title">Fluent English </h4>
+                                <p>Speaking & Writing and daily calling are possible.</p>
                             </div>
                         </div>
                     </div>

@@ -3079,3 +3079,12 @@ blockquote:before,
 .pt-resume .skill-item .progress .width-77 {
 	width: 77%;
 }
+
+span.tan {
+	color: white;
+}
+
+span.utan {
+	margin-top: 12px;
+	color: tan
+}

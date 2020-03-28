@@ -1,7 +1,7 @@
 import React from 'react'
 import { AboutScreen } from './about'
 import { ResumeScreen } from './resume'
-import { PortfolioScreen } from './portfolio'
+import PortfolioScreen from './portfolio'
 import { BlogScreen } from './blog'
 import { HomeScreen } from './home'
 import { NavbarScreen } from '../components/navbar'
