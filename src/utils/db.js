@@ -122,19 +122,183 @@ export const DB = {
         { 
             name: 'Lootboxcash', 
             skill: 'React', 
-            img: 'img/portfolio/react-3.png', 
+            img: 'img/portfolio/lootboxcash/1.JPG', 
             apps: [
-               'img/portfolio/react-3.png',
-               'img/portfolio/react-5.JPG', 
+                'img/portfolio/lootboxcash/1.JPG',
+                'img/portfolio/lootboxcash/2.PNG',
+                'img/portfolio/lootboxcash/3.PNG',
+                'img/portfolio/lootboxcash/4.PNG',
+                'img/portfolio/lootboxcash/5.PNG',
+                'img/portfolio/lootboxcash/6.PNG',
+                'img/portfolio/lootboxcash/7.PNG',
+                'img/portfolio/lootboxcash/8.PNG',
+                'img/portfolio/lootboxcash/9.PNG',
+                'img/portfolio/lootboxcash/10.PNG',
             ] 
         },
         { 
             name: 'Quantax', 
             skill: 'React', 
-            img: 'img/portfolio/react-5.JPG', 
+            img: 'img/portfolio/quantaex/1.JPG', 
             apps: [
-               'img/portfolio/react-3.png'
-            ] 
+               'img/portfolio/quantaex/1.JPG',
+               'img/portfolio/quantaex/2.JPG',
+               'img/portfolio/quantaex/3.JPG',
+               'img/portfolio/quantaex/4.JPG',
+               'img/portfolio/quantaex/5.JPG',
+               'img/portfolio/quantaex/6.JPG',
+               'img/portfolio/quantaex/7.JPG',
+               'img/portfolio/quantaex/8.JPG',
+               'img/portfolio/quantaex/9.JPG',
+               'img/portfolio/quantaex/10.JPG',
+            ]
+        },
+        { 
+            name: 'Realtor', 
+            skill: 'React', 
+            img: 'img/portfolio/realtor/1.JPG', 
+            apps: [
+               'img/portfolio/realtor/1.JPG',
+               'img/portfolio/realtor/2.JPG',
+               'img/portfolio/realtor/3.JPG',
+            ]
+        },
+        { 
+            name: 'Obe', 
+            skill: 'React', 
+            img: 'img/portfolio/obe/1.PNG', 
+            apps: [
+               'img/portfolio/obe/1.PNG',
+               'img/portfolio/obe/2.PNG',
+               'img/portfolio/obe/3.PNG',
+               'img/portfolio/obe/4.PNG',
+               'img/portfolio/obe/5.PNG',
+               'img/portfolio/obe/6.PNG',
+               'img/portfolio/obe/7.PNG',
+               'img/portfolio/obe/8.PNG',
+            ]
+        },
+        { 
+            name: 'Festfood', 
+            skill: 'React', 
+            img: 'img/portfolio/festfood/1.PNG', 
+            apps: [
+               'img/portfolio/festfood/1.PNG',
+               'img/portfolio/festfood/2.PNG',
+               'img/portfolio/festfood/3.PNG',
+               'img/portfolio/festfood/4.PNG',
+               'img/portfolio/festfood/5.PNG',
+            ]
+        },
+        { 
+            name: 'Stanza', 
+            skill: 'React', 
+            img: 'img/portfolio/stanza/1.JPG', 
+            apps: [
+               'img/portfolio/stanza/1.JPG',
+               'img/portfolio/stanza/2.JPG',
+               'img/portfolio/stanza/3.JPG',
+               'img/portfolio/stanza/4.JPG',
+               'img/portfolio/stanza/5.JPG',
+               'img/portfolio/stanza/6.JPG',
+               'img/portfolio/stanza/7.JPG',
+            ]
+        },
+        { 
+            name: 'Vistajet', 
+            skill: 'React', 
+            img: 'img/portfolio/vistajet/1.PNG', 
+            apps: [
+               'img/portfolio/vistajet/1.PNG',
+               'img/portfolio/vistajet/2.PNG',
+               'img/portfolio/vistajet/3.PNG',
+               'img/portfolio/vistajet/4.PNG',
+               'img/portfolio/vistajet/5.PNG',
+            ]
+        },
+        { 
+            name: 'WaltorDrake', 
+            skill: 'Angular', 
+            img: 'img/portfolio/walterdrake/1.PNG', 
+            apps: [
+               'img/portfolio/walterdrake/1.PNG',
+               'img/portfolio/walterdrake/2.PNG',
+               'img/portfolio/walterdrake/3.PNG',
+               'img/portfolio/walterdrake/4.PNG',
+               'img/portfolio/walterdrake/5.PNG',
+               'img/portfolio/walterdrake/6.PNG',
+               'img/portfolio/walterdrake/7.PNG',
+            ]
+        },
+        { 
+            name: 'VPL', 
+            skill: 'PHP', 
+            img: 'img/portfolio/vpl/1.PNG', 
+            apps: [
+               'img/portfolio/vpl/1.PNG',
+               'img/portfolio/vpl/2.PNG',
+               'img/portfolio/vpl/3.PNG',
+               'img/portfolio/vpl/4.PNG',
+               'img/portfolio/vpl/5.PNG',
+               'img/portfolio/vpl/6.PNG',
+               'img/portfolio/vpl/7.PNG',
+            ]
+        },
+        { 
+            name: 'ERP School', 
+            skill: 'Django', 
+            img: 'img/portfolio/dj_erp/1.png', 
+            apps: [
+               'img/portfolio/dj_erp/1.png',
+               'img/portfolio/dj_erp/2.png',
+               'img/portfolio/dj_erp/3.png',
+               'img/portfolio/dj_erp/4.png',
+               'img/portfolio/dj_erp/5.png',
+               'img/portfolio/dj_erp/6.png',
+               'img/portfolio/dj_erp/7.png',
+               'img/portfolio/dj_erp/8.png',
+               'img/portfolio/dj_erp/9.png',
+               'img/portfolio/dj_erp/10.png',
+               'img/portfolio/dj_erp/11.png',
+               'img/portfolio/dj_erp/12.png',
+               'img/portfolio/dj_erp/13.png',
+               'img/portfolio/dj_erp/14.png',
+               'img/portfolio/dj_erp/15.png',
+            ]
+        },
+        { 
+            name: 'Shabingo', 
+            skill: 'Django', 
+            img: 'img/portfolio/dj_shabingo/1.JPG', 
+            apps: [
+               'img/portfolio/dj_shabingo/1.JPG',
+               'img/portfolio/dj_shabingo/2.JPG',
+               'img/portfolio/dj_shabingo/3.JPG',
+               'img/portfolio/dj_shabingo/4.JPG',
+               'img/portfolio/dj_shabingo/5.JPG',
+            ]
+        },
+        { 
+            name: 'Express', 
+            skill: 'Django', 
+            img: 'img/portfolio/dj_express2015/1.JPG', 
+            apps: [
+               'img/portfolio/dj_express2015/1.JPG',
+               'img/portfolio/dj_express2015/2.JPG',
+               'img/portfolio/dj_express2015/3.JPG',
+               'img/portfolio/dj_express2015/4.JPG',
+               'img/portfolio/dj_express2015/5.JPG',
+            ]
+        },
+        { 
+            name: 'Lifestyle', 
+            skill: 'Vue', 
+            img: 'img/portfolio/vue_lifestyle/1.PNG', 
+            apps: [
+               'img/portfolio/vue_lifestyle/1.PNG',
+               'img/portfolio/vue_lifestyle/2.PNG',
+               'img/portfolio/vue_lifestyle/3.PNG',
+            ]
         },
     ],
 

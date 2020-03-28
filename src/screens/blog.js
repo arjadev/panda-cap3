@@ -20,7 +20,11 @@ export function BlogScreen() {
                                     <div className="thumbnail" style={{ background: '#fff', margin: 5, textAlign: 'center', padding: 12}}>
                                         <h2 style={{ color: '#000'}}>{item.name}</h2>
                                     </div>
-                                    <div style={{ textAlign: 'center', margin: 12}}><a href={item.url} target="_blank" rel="noopener noreferrer">{item.description}</a></div>
+                                    <div style={{ textAlign: 'center', margin: 12}}>
+                                        <a href={item.url} target="_blank" rel="noopener noreferrer">
+                                            {item.description}
+                                            </a>
+                                    </div>
                                 </div>
                             </div>)
                     }

@@ -14,8 +14,24 @@ export default class PortfolioScreen extends React.Component {
             visible: false,
             preview: false,
             myIndex: 0,
+            width: 0, 
+            height: 0
         };
+        this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
     }
+
+    componentDidMount() {
+        this.updateWindowDimensions();
+        window.addEventListener('resize', this.updateWindowDimensions);
+      }
+      
+      componentWillUnmount() {
+        window.removeEventListener('resize', this.updateWindowDimensions);
+      }
+      
+      updateWindowDimensions() {
+        this.setState({ width: window.innerWidth, height: window.innerHeight });
+      }
 
     showPreview(x) {
         this.setState({
@@ -33,7 +49,7 @@ export default class PortfolioScreen extends React.Component {
 
     render() {
 
-        const { myIndex } = this.state;
+        const { myIndex, width } = this.state;
 
         const settings = {
             dots: true,
@@ -47,7 +63,7 @@ export default class PortfolioScreen extends React.Component {
                 <section className="container">
 
                     <div className="header-page mt-70 mob-mt">
-                        <h2>Portfolio </h2>
+                        <h2>Portfolio</h2>
                         <span></span>
                     </div>
 
@@ -58,10 +74,10 @@ export default class PortfolioScreen extends React.Component {
                                 <li data-filter=".React">React </li>
                                 <li data-filter=".Angular">Angular </li>
                                 <li data-filter=".Django">Django </li>
-                                <li data-filter=".Node">Node </li>
+                                {/* <li data-filter=".Node">Node </li> */}
                                 <li data-filter=".Vue">Vue </li>
                                 <li data-filter=".PHP">PHP </li>
-                                <li data-filter=".Devops">Devops </li>
+                                {/* <li data-filter=".Devops">Devops </li> */}
                             </ul>
                         </div>
                     </div>
@@ -80,14 +96,14 @@ export default class PortfolioScreen extends React.Component {
                 </section>
 
                 <Rodal
-                    height={620}
-                    width={1100}
+                    width={width/1.3}
+                    height={width*620/1100/1.3}
                     animation={'door'}
                     visible={this.state.preview}
                     onClose={this.hide.bind(this)}
                 >
                     <center>
-                        <h5 style={{ color: 'purple', marginBottom: 20 }}>
+                        <h5 style={{ color: 'purple', marginBottom: 12 }}>
                             Major Screens
                         </h5>
                     </center>
@@ -100,8 +116,9 @@ export default class PortfolioScreen extends React.Component {
                                     <img
                                         src={item}
                                         alt="First slide"
-                                        height={540}
-                                        width={1100}
+                                        width={width/1.3}
+                                        height={ width > 1030 ? width*540/1.3/1100 : width*540/1.9/1100}
+
                                     />
                                 </div>)
                         }
