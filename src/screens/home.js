@@ -13,7 +13,7 @@ export function HomeScreen() {
             </div>
             <section>
                 <div className="banner">
-                    <h1>{DB.username}</h1>
+                    <a href='https://www.freelancer.com/u/simonfsclnd'><h1>{DB.username}</h1></a>
                     <p className="cd-headline rotate-1">
                         <span>I am a </span>
                         <span className="cd-words-wrapper">

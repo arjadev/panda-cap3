@@ -1,10 +1,10 @@
 export const DB = {
-    username: "Junel Ambajic",
-    city: "Bayugan City, Philippines",
+    username: "Simon Fuller",
+    city: "Mallorca, Spain",
     myskills: ['Designer', 'Freelancer', 'Engineer'],
     git: 'https://github.com/kingofdevs',
     // eslint-disable-next-line
-    description: 'I’m Junel Ambajic, a full-stack developer, experienced in building complex mobile and web application. \n \
+    description: 'I’m Simon Fuller, a full-stack developer, experienced in building complex mobile and web application. \n \
     My experience ranges from creating real-time location based mobile apps to building scalable apps with react-native. \n \
     I am happy working solo as well as in a team where the members are effective and efficient coders too. \n \
     \n \
@@ -119,10 +119,10 @@ export const DB = {
         }
     ],
     myProjects: [
-        { 
-            name: 'Lootboxcash', 
-            skill: 'React', 
-            img: 'img/portfolio/lootboxcash/0.jpg', 
+        {
+            name: 'Lootboxcash',
+            skill: 'React',
+            img: 'img/portfolio/lootboxcash/0.jpg',
             apps: [
                 'img/portfolio/lootboxcash/1.jpg',
                 'img/portfolio/lootboxcash/2.jpg',
@@ -134,170 +134,170 @@ export const DB = {
                 'img/portfolio/lootboxcash/8.jpg',
                 'img/portfolio/lootboxcash/9.jpg',
                 'img/portfolio/lootboxcash/10.jpg',
-            ] 
-        },
-        { 
-            name: 'Quantax', 
-            skill: 'React', 
-            img: 'img/portfolio/quantaex/0.jpg', 
-            apps: [
-               'img/portfolio/quantaex/1.JPG',
-               'img/portfolio/quantaex/2.JPG',
-               'img/portfolio/quantaex/3.JPG',
-               'img/portfolio/quantaex/4.JPG',
-               'img/portfolio/quantaex/5.JPG',
-               'img/portfolio/quantaex/6.JPG',
-               'img/portfolio/quantaex/7.JPG',
-               'img/portfolio/quantaex/8.JPG',
-               'img/portfolio/quantaex/9.JPG',
-               'img/portfolio/quantaex/10.JPG',
             ]
         },
-        { 
-            name: 'Realtor', 
-            skill: 'React', 
-            img: 'img/portfolio/realtor/0.jpg', 
+        {
+            name: 'Quantax',
+            skill: 'React',
+            img: 'img/portfolio/quantaex/0.jpg',
             apps: [
-               'img/portfolio/realtor/1.jpg',
-               'img/portfolio/realtor/2.jpg',
-               'img/portfolio/realtor/3.jpg',
+                'img/portfolio/quantaex/1.JPG',
+                'img/portfolio/quantaex/2.JPG',
+                'img/portfolio/quantaex/3.JPG',
+                'img/portfolio/quantaex/4.JPG',
+                'img/portfolio/quantaex/5.JPG',
+                'img/portfolio/quantaex/6.JPG',
+                'img/portfolio/quantaex/7.JPG',
+                'img/portfolio/quantaex/8.JPG',
+                'img/portfolio/quantaex/9.JPG',
+                'img/portfolio/quantaex/10.JPG',
             ]
         },
-        { 
-            name: 'Obe', 
-            skill: 'React', 
-            img: 'img/portfolio/obe/0.jpg', 
+        {
+            name: 'Realtor',
+            skill: 'React',
+            img: 'img/portfolio/realtor/0.jpg',
             apps: [
-               'img/portfolio/obe/1.jpg',
-               'img/portfolio/obe/2.jpg',
-               'img/portfolio/obe/3.jpg',
-               'img/portfolio/obe/4.jpg',
-               'img/portfolio/obe/5.jpg',
-               'img/portfolio/obe/6.jpg',
-               'img/portfolio/obe/7.jpg',
-               'img/portfolio/obe/8.jpg',
+                'img/portfolio/realtor/1.jpg',
+                'img/portfolio/realtor/2.jpg',
+                'img/portfolio/realtor/3.jpg',
             ]
         },
-        { 
-            name: 'Festfood', 
-            skill: 'React', 
-            img: 'img/portfolio/festfood/0.jpg', 
+        {
+            name: 'Obe',
+            skill: 'React',
+            img: 'img/portfolio/obe/0.jpg',
             apps: [
-               'img/portfolio/festfood/1.jpg',
-               'img/portfolio/festfood/2.jpg',
-               'img/portfolio/festfood/3.jpg',
-               'img/portfolio/festfood/4.jpg',
-               'img/portfolio/festfood/5.jpg',
+                'img/portfolio/obe/1.jpg',
+                'img/portfolio/obe/2.jpg',
+                'img/portfolio/obe/3.jpg',
+                'img/portfolio/obe/4.jpg',
+                'img/portfolio/obe/5.jpg',
+                'img/portfolio/obe/6.jpg',
+                'img/portfolio/obe/7.jpg',
+                'img/portfolio/obe/8.jpg',
             ]
         },
-        { 
-            name: 'Stanza', 
-            skill: 'React', 
-            img: 'img/portfolio/stanza/0.jpg', 
+        {
+            name: 'Festfood',
+            skill: 'React',
+            img: 'img/portfolio/festfood/0.jpg',
             apps: [
-               'img/portfolio/stanza/1.JPG',
-               'img/portfolio/stanza/2.JPG',
-               'img/portfolio/stanza/3.JPG',
-               'img/portfolio/stanza/4.JPG',
-               'img/portfolio/stanza/5.JPG',
-               'img/portfolio/stanza/6.JPG',
-               'img/portfolio/stanza/7.JPG',
+                'img/portfolio/festfood/1.jpg',
+                'img/portfolio/festfood/2.jpg',
+                'img/portfolio/festfood/3.jpg',
+                'img/portfolio/festfood/4.jpg',
+                'img/portfolio/festfood/5.jpg',
             ]
         },
-        { 
-            name: 'Vistajet', 
-            skill: 'React', 
-            img: 'img/portfolio/vistajet/0.jpg', 
+        {
+            name: 'Stanza',
+            skill: 'React',
+            img: 'img/portfolio/stanza/0.jpg',
             apps: [
-               'img/portfolio/vistajet/1.jpg',
-               'img/portfolio/vistajet/2.jpg',
-               'img/portfolio/vistajet/3.jpg',
-               'img/portfolio/vistajet/4.jpg',
-               'img/portfolio/vistajet/5.jpg',
+                'img/portfolio/stanza/1.JPG',
+                'img/portfolio/stanza/2.JPG',
+                'img/portfolio/stanza/3.JPG',
+                'img/portfolio/stanza/4.JPG',
+                'img/portfolio/stanza/5.JPG',
+                'img/portfolio/stanza/6.JPG',
+                'img/portfolio/stanza/7.JPG',
             ]
         },
-        { 
-            name: 'WaltorDrake', 
-            skill: 'Angular', 
-            img: 'img/portfolio/walterdrake/0.jpg', 
+        {
+            name: 'Vistajet',
+            skill: 'React',
+            img: 'img/portfolio/vistajet/0.jpg',
             apps: [
-               'img/portfolio/walterdrake/1.jpg',
-               'img/portfolio/walterdrake/2.jpg',
-               'img/portfolio/walterdrake/3.jpg',
-               'img/portfolio/walterdrake/4.jpg',
-               'img/portfolio/walterdrake/5.jpg',
-               'img/portfolio/walterdrake/6.jpg',
-               'img/portfolio/walterdrake/7.jpg',
+                'img/portfolio/vistajet/1.jpg',
+                'img/portfolio/vistajet/2.jpg',
+                'img/portfolio/vistajet/3.jpg',
+                'img/portfolio/vistajet/4.jpg',
+                'img/portfolio/vistajet/5.jpg',
             ]
         },
-        { 
-            name: 'VPL', 
-            skill: 'PHP', 
-            img: 'img/portfolio/vpl/0.jpg', 
+        {
+            name: 'WaltorDrake',
+            skill: 'Angular',
+            img: 'img/portfolio/walterdrake/0.jpg',
             apps: [
-               'img/portfolio/vpl/1.jpg',
-               'img/portfolio/vpl/2.jpg',
-               'img/portfolio/vpl/3.jpg',
-               'img/portfolio/vpl/4.jpg',
-               'img/portfolio/vpl/5.jpg',
-               'img/portfolio/vpl/6.jpg',
-               'img/portfolio/vpl/7.jpg',
+                'img/portfolio/walterdrake/1.jpg',
+                'img/portfolio/walterdrake/2.jpg',
+                'img/portfolio/walterdrake/3.jpg',
+                'img/portfolio/walterdrake/4.jpg',
+                'img/portfolio/walterdrake/5.jpg',
+                'img/portfolio/walterdrake/6.jpg',
+                'img/portfolio/walterdrake/7.jpg',
             ]
         },
-        { 
-            name: 'ERP School', 
-            skill: 'Django', 
-            img: 'img/portfolio/dj_erp/0.jpg', 
+        {
+            name: 'VPL',
+            skill: 'PHP',
+            img: 'img/portfolio/vpl/0.jpg',
             apps: [
-               'img/portfolio/dj_erp/1.jpg',
-               'img/portfolio/dj_erp/2.jpg',
-               'img/portfolio/dj_erp/3.jpg',
-               'img/portfolio/dj_erp/4.jpg',
-               'img/portfolio/dj_erp/5.jpg',
-               'img/portfolio/dj_erp/6.jpg',
-               'img/portfolio/dj_erp/7.jpg',
-               'img/portfolio/dj_erp/8.jpg',
-               'img/portfolio/dj_erp/9.jpg',
-               'img/portfolio/dj_erp/10.jpg',
-               'img/portfolio/dj_erp/11.jpg',
-               'img/portfolio/dj_erp/12.jpg',
-               'img/portfolio/dj_erp/13.jpg',
-               'img/portfolio/dj_erp/14.jpg',
-               'img/portfolio/dj_erp/15.jpg',
+                'img/portfolio/vpl/1.jpg',
+                'img/portfolio/vpl/2.jpg',
+                'img/portfolio/vpl/3.jpg',
+                'img/portfolio/vpl/4.jpg',
+                'img/portfolio/vpl/5.jpg',
+                'img/portfolio/vpl/6.jpg',
+                'img/portfolio/vpl/7.jpg',
             ]
         },
-        { 
-            name: 'Shabingo', 
-            skill: 'Django', 
-            img: 'img/portfolio/dj_shabingo/0.jpg', 
+        {
+            name: 'ERP School',
+            skill: 'Django',
+            img: 'img/portfolio/dj_erp/0.jpg',
             apps: [
-               'img/portfolio/dj_shabingo/1.JPG',
-               'img/portfolio/dj_shabingo/2.JPG',
-               'img/portfolio/dj_shabingo/3.JPG',
-               'img/portfolio/dj_shabingo/4.JPG',
-               'img/portfolio/dj_shabingo/5.JPG',
+                'img/portfolio/dj_erp/1.jpg',
+                'img/portfolio/dj_erp/2.jpg',
+                'img/portfolio/dj_erp/3.jpg',
+                'img/portfolio/dj_erp/4.jpg',
+                'img/portfolio/dj_erp/5.jpg',
+                'img/portfolio/dj_erp/6.jpg',
+                'img/portfolio/dj_erp/7.jpg',
+                'img/portfolio/dj_erp/8.jpg',
+                'img/portfolio/dj_erp/9.jpg',
+                'img/portfolio/dj_erp/10.jpg',
+                'img/portfolio/dj_erp/11.jpg',
+                'img/portfolio/dj_erp/12.jpg',
+                'img/portfolio/dj_erp/13.jpg',
+                'img/portfolio/dj_erp/14.jpg',
+                'img/portfolio/dj_erp/15.jpg',
             ]
         },
-        { 
-            name: 'Express', 
-            skill: 'Django', 
-            img: 'img/portfolio/dj_express2015/0.jpg', 
+        {
+            name: 'Shabingo',
+            skill: 'Django',
+            img: 'img/portfolio/dj_shabingo/0.jpg',
             apps: [
-               'img/portfolio/dj_express2015/1.jpg',
-               'img/portfolio/dj_express2015/2.jpg',
-               'img/portfolio/dj_express2015/3.jpg',
-               'img/portfolio/dj_express2015/4.jpg',
-               'img/portfolio/dj_express2015/5.jpg',
+                'img/portfolio/dj_shabingo/1.JPG',
+                'img/portfolio/dj_shabingo/2.JPG',
+                'img/portfolio/dj_shabingo/3.JPG',
+                'img/portfolio/dj_shabingo/4.JPG',
+                'img/portfolio/dj_shabingo/5.JPG',
             ]
         },
-        { 
-            name: 'Lifestyle', 
-            skill: 'Vue', 
-            img: 'img/portfolio/vue_lifestyle/0.jpg', 
+        {
+            name: 'Express',
+            skill: 'Django',
+            img: 'img/portfolio/dj_express2015/0.jpg',
             apps: [
-               'img/portfolio/vue_lifestyle/1.jpg',
-               'img/portfolio/vue_lifestyle/2.jpg',
-               'img/portfolio/vue_lifestyle/3.jpg',
+                'img/portfolio/dj_express2015/1.jpg',
+                'img/portfolio/dj_express2015/2.jpg',
+                'img/portfolio/dj_express2015/3.jpg',
+                'img/portfolio/dj_express2015/4.jpg',
+                'img/portfolio/dj_express2015/5.jpg',
+            ]
+        },
+        {
+            name: 'Lifestyle',
+            skill: 'Vue',
+            img: 'img/portfolio/vue_lifestyle/0.jpg',
+            apps: [
+                'img/portfolio/vue_lifestyle/1.jpg',
+                'img/portfolio/vue_lifestyle/2.jpg',
+                'img/portfolio/vue_lifestyle/3.jpg',
             ]
         },
     ],
@@ -317,5 +317,52 @@ export const DB = {
             name: 'React.js to Next.js',
             description: 'Converting from react.js to next.js',
         },
+    ],
+
+    feedbacks: [
+        {
+            name: "Shiva Kumar Ramachandran",
+            job: "React Native iOS App to be complied and make it working",
+            avatar: "img/testimonials/testimonial-1.jpg",
+            description: "Excellent communication, understood the details of the project very quick. Excellent coding skills. Very good technical skills. Will hire him again for more work."
+        },
+
+        {
+            name: "Dori",
+            job: "node-var videoconference chat",
+            avatar: "img/testimonials/testimonial-1.jpg",
+            description: "Very kind and very patient. \
+            A quality workman \
+            And no doubt an expert in the field \
+            We loved working with him and will continue to work with him .."
+        },
+
+        {
+            name: "Mac Tichner",
+            job: "Create a react native mobile application prototype from designs",
+            avatar: "img/testimonials/testimonial-1.jpg",
+            description: "Simon is the best developer I have worked with on this platform and has incredible talent for react native. \
+            \
+            He is extremely responsive and turns around high quality work fast.\
+            \
+            I will 100% use him for future projects."
+        },
+
+        {
+            name: "Johan K",
+            job: "ASP.net Core and Angular developer required",
+            avatar: "img/testimonials/testimonial-1.jpg",
+            description: "Simon is very knowledgeable and willing to assist. I recommend him."
+        },
+
+        {
+            name: "Steve Kinuthia",
+            job: "Need a react expert",
+            avatar: "img/testimonials/testimonial-1.jpg",
+            description: "Great developer. \
+            He worked fast and resolved some issues in the good way.\
+            Highly recommended.\
+            I am sure that I will rehire him when I have any jobs."
+        }
     ]
 }

@@ -25,10 +25,10 @@ export function AboutScreen() {
                   </div>
                 </div>
                 <div className="col-lg-9 col-sm-8">
-                    <h4>{DB.username}</h4>
+                  <h4>{DB.username}</h4>
                   <div className="loc">
                     <i className="fas fa-map-marked-alt"></i> {DB.city}
-									</div>
+                  </div>
                   <p>{DB.description}</p>
                 </div>
 
@@ -36,7 +36,7 @@ export function AboutScreen() {
                   <div className="info-icon">
                     <i className="fas fa-award"></i>
                     <div className="desc-icon">
-                      <h6>8 Years Job </h6>
+                      <h6>12 Years Job </h6>
                       <p>Experience </p>
                     </div>
                   </div>
@@ -78,7 +78,7 @@ export function AboutScreen() {
           <div className="col-lg-12 col-sm-12">
             <div className="box-2">
               <div className="row">
-                {DB.myInterests.map((item, index)=><InterestItem key={index} title={item.title} class={item.icon}/>)}
+                {DB.myInterests.map((item, index) => <InterestItem key={index} title={item.title} class={item.icon} />)}
               </div>
             </div>
           </div>
@@ -92,7 +92,7 @@ export function AboutScreen() {
             </div>
           </div>
 
-          {DB.myServices.map((item, index)=><ServiceItem 
+          {DB.myServices.map((item, index) => <ServiceItem
             key={index}
             class={item.icon}
             title={item.title}
@@ -111,33 +111,18 @@ export function AboutScreen() {
 
           <div className="owl-carousel owl-theme">
 
-            <TestimonialsItem 
-              name="Shiva Kumar Ramachandran" 
-              job="Rect Native iOS App to be complied and make it working" 
-              avatar="img/testimonials/testimonial-1.jpg"
-              description="Excellent communication, understood the details of the project very quick. Excellent coding skills. Very good technical skills. Will hire him again for more work."
-            />
+            {
+              DB.feedbacks.map((item, index) =>
+                <TestimonialsItem
+                  key={index}
+                  name={item.name}
+                  job={item.job}
+                  avatar={item.avatar}
+                  description={item.description} />)
+            }
 
-            <TestimonialsItem 
-              name="Mac Tichner" 
-              job="Create a react native mobile application prototype from designs" 
-              avatar="img/testimonials/testimonial-1.jpg"
-              description="Junel is the best developer I have worked with on this platform and has incredible talent for react native.
 
-              He is extremely responsive and turns around high quality work fast.
-              
-              I will 100% use him for future projects."
-            />
 
-            <TestimonialsItem 
-              name="Steve Kinuthia" 
-              job="Need a react expert" 
-              avatar="img/testimonials/testimonial-1.jpg"
-              description="Great developer.
-              He worked fast and resolved some issues in the good way.
-              Highly recommended.
-              I am sure that I will rehire him when I have any jobs."
-            />
 
           </div>
         </div>

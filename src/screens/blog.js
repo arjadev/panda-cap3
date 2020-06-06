@@ -7,7 +7,7 @@ export function BlogScreen() {
             <section className="container">
 
                 <div className="header-page mt-70 mob-mt">
-                    <h2>React.js Services</h2>
+                    <h2>Best Available Services</h2>
                     <span></span>
                 </div>
 
