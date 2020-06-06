@@ -113,9 +113,9 @@ export const DB = {
     ],
     myEducation: [
         {
-            title: 'Caraga State University',
+            title: 'University of Salamanca',
             calendar: '2007 - 2012',
-            description: 'As Masters in Computer Science I have graduated at Caraga State University from 2007 to 2012.'
+            description: 'As Masters in Computer Science I have graduated at University of Salamanca from 2007 to 2012.'
         }
     ],
     myProjects: [
@@ -331,6 +331,7 @@ export const DB = {
             name: "Dori",
             job: "node-var videoconference chat",
             avatar: "img/testimonials/testimonial-1.jpg",
+            // eslint-disable-next-line
             description: "Very kind and very patient. \
             A quality workman \
             And no doubt an expert in the field \
@@ -341,6 +342,7 @@ export const DB = {
             name: "Mac Tichner",
             job: "Create a react native mobile application prototype from designs",
             avatar: "img/testimonials/testimonial-1.jpg",
+            // eslint-disable-next-line
             description: "Simon is the best developer I have worked with on this platform and has incredible talent for react native. \
             \
             He is extremely responsive and turns around high quality work fast.\
@@ -359,6 +361,7 @@ export const DB = {
             name: "Steve Kinuthia",
             job: "Need a react expert",
             avatar: "img/testimonials/testimonial-1.jpg",
+            // eslint-disable-next-line
             description: "Great developer. \
             He worked fast and resolved some issues in the good way.\
             Highly recommended.\
