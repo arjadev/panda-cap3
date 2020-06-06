@@ -1,7 +1,7 @@
 export const DB = {
     username: "Simon Fuller",
     city: "Mallorca, Spain",
-    myskills: ['Designer', 'Freelancer', 'Engineer'],
+    myskills: ['Devops developer', 'Backend developer', 'Frontend developer', 'Mobile developer'],
     git: 'https://github.com/kingofdevs',
     // eslint-disable-next-line
     description: 'I’m Simon Fuller, a full-stack developer, experienced in building complex mobile and web application. \n \
@@ -298,6 +298,125 @@ export const DB = {
                 'img/portfolio/vue_lifestyle/1.jpg',
                 'img/portfolio/vue_lifestyle/2.jpg',
                 'img/portfolio/vue_lifestyle/3.jpg',
+            ]
+        },
+        {
+            name: 'Devops',
+            skill: 'devops',
+            img: 'img/portfolio/devops/1.webp',
+            apps: [
+                'img/portfolio/devops/1.webp',
+            ]
+        },
+        {
+            name: 'android',
+            skill: 'android',
+            img: 'img/portfolio/android_broadcast/Screenshot_0.png',
+            apps: [
+                'img/portfolio/android_broadcast/Screenshot_0.png',
+                'img/portfolio/android_broadcast/Screenshot_1.png',
+                'img/portfolio/android_broadcast/Screenshot_2.png',
+            ]
+        },
+        {
+            name: 'convertLead',
+            skill: 'PHP',
+            img: 'img/portfolio/convertLead/Capture (1).PNG',
+            apps: [
+                'img/portfolio/convertLead/Capture.PNG',
+                'img/portfolio/convertLead/Capture1.PNG',
+                'img/portfolio/convertLead/Capture2.PNG',
+            ]
+        },
+        {
+            name: 'devops_aws',
+            skill: 'devops',
+            img: 'img/portfolio/devops_aws/1.webp',
+            apps: [
+                'img/portfolio/devops_aws/1.webp',
+                'img/portfolio/devops_aws/2.webp',
+            ]
+        },
+        {
+            name: 'djangoReact',
+            skill: 'Django',
+            img: 'img/portfolio/djangoReact/1.webp',
+            apps: [
+                'img/portfolio/djangoReact/1.webp',
+                'img/portfolio/djangoReact/2.webp',
+                'img/portfolio/djangoReact/3.webp',
+            ]
+        },
+        {
+            name: 'entvbox',
+            skill: 'Django',
+            img: 'img/portfolio/entvbox/Capture.PNG',
+            apps: [
+                'img/portfolio/entvbox/Capture.PNG',
+                'img/portfolio/entvbox/Capture1.PNG',
+                'img/portfolio/entvbox/Capture2.PNG',
+                'img/portfolio/entvbox/Capture3.PNG',
+                'img/portfolio/entvbox/Capture4.PNG',
+                'img/portfolio/entvbox/Capture5.PNG',
+            ]
+        },
+        {
+            name: 'flyLuso',
+            skill: 'android',
+            img: 'img/portfolio/flyLuso/1.webp',
+            apps: [
+                'img/portfolio/flyLuso/1.webp',
+            ]
+        },
+        {
+            name: 'Google Cloud Platform',
+            skill: 'devops',
+            img: 'img/portfolio/google_cloud_platform/1.webp',
+            apps: [
+                'img/portfolio/google_cloud_platform/1.webp',
+                'img/portfolio/google_cloud_platform/2.webp',
+                'img/portfolio/google_cloud_platform/3.webp',
+            ]
+        },
+        {
+            name: 'Internship',
+            skill: 'Angular',
+            img: 'img/portfolio/internship/Screenshot_1.png',
+            apps: [
+                'img/portfolio/internship/Screenshot_1.png',
+                'img/portfolio/internship/Screenshot_2.png',
+                'img/portfolio/internship/Screenshot_3.png',
+                'img/portfolio/internship/Screenshot_4.png',
+                'img/portfolio/internship/Screenshot_5.png',
+                'img/portfolio/internship/Screenshot_6.png',
+                'img/portfolio/internship/Screenshot_7.png',
+                'img/portfolio/internship/Screenshot_8.png',
+                'img/portfolio/internship/Screenshot_9.png',
+                'img/portfolio/internship/Screenshot_10.png',
+                'img/portfolio/internship/Screenshot_11.png',
+                'img/portfolio/internship/Screenshot_12.png',
+                'img/portfolio/internship/Screenshot_13.png',
+                'img/portfolio/internship/Screenshot_14.png',
+            ]
+        },
+        {
+            name: 'Laravel and Vue',
+            skill: 'Vue',
+            img: 'img/portfolio/Laravel_vue/1.webp',
+            apps: [
+                'img/portfolio/Laravel_vue/1.webp',
+                'img/portfolio/Laravel_vue/2.webp',
+                'img/portfolio/Laravel_vue/3.webp',
+            ]
+        },
+        {
+            name: 'Laravel_React',
+            skill: 'Angular',
+            img: 'img/portfolio/Laravel_React/1.webp',
+            apps: [
+                'img/portfolio/Laravel_React/1.webp',
+                'img/portfolio/Laravel_React/2.webp',
+                'img/portfolio/Laravel_React/3.webp',
             ]
         },
     ],

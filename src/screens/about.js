@@ -21,7 +21,7 @@ export function AboutScreen() {
               <div className="row">
                 <div className="col-lg-3 col-sm-4">
                   <div className="photo">
-                    <img alt="" src="img/user-photo.jpg" />
+                    <img alt="" src="img/user.png" />
                   </div>
                 </div>
                 <div className="col-lg-9 col-sm-8">

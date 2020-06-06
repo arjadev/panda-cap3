@@ -71,13 +71,24 @@ export default class PortfolioScreen extends React.Component {
                         <div className="col-lg-12 col-sm-12 portfolio-filter">
                             <ul>
                                 <li className="active" data-filter="*">All </li>
+                                <li data-filter=".devops">Devops </li>
+                                <li data-filter=".Node">Node </li>
+                                <li data-filter=".Django">Python </li>
+                                <li data-filter=".PHP">PHP </li>
+                                <li data-filter=".ASP">ASP.NET </li>
+                                <li data-filter=".JAVA">JAVA </li>
+                                <li data-filter=".Golang">Go </li>
+
                                 <li data-filter=".React">React </li>
                                 <li data-filter=".Angular">Angular </li>
-                                <li data-filter=".Django">Django </li>
-                                {/* <li data-filter=".Node">Node </li> */}
                                 <li data-filter=".Vue">Vue </li>
-                                <li data-filter=".PHP">PHP </li>
-                                {/* <li data-filter=".Devops">Devops </li> */}
+
+                                <li data-filter=".android">Android </li>
+                                <li data-filter=".ios">IOS </li>
+                                <li data-filter=".rn">React Native </li>
+                                <li data-filter=".ionic">Ionic </li>
+                                <li data-filter=".flutter">Flutter </li>
+
                             </ul>
                         </div>
                     </div>

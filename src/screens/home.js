@@ -17,20 +17,20 @@ export function HomeScreen() {
                     <p className="cd-headline rotate-1">
                         <span>I am a </span>
                         <span className="cd-words-wrapper">
-                            <b className="is-visible">Developer </b>
+                            <b className="is-visible">Senior developer </b>
                             {DB.myskills.map((item, index) => <b key={index}>{item}</b>)}
                         </span>
                     </p>
                 </div>
-                <div className="social">
+                {/* <div className="social">
                     <ul>
                         <li>
-                            {/* <a href={DB.git} alt="{}"> */}
+                            <a href={DB.git} alt="{}">
                                 <i className="fab fa-github"></i>
-                            {/* </a> */}
+                            </a>
                         </li>
                     </ul>
-                </div>
+                </div> */}
             </section>
         </div>
     )
