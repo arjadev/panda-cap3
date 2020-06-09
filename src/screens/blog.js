@@ -1,5 +1,4 @@
 import React from 'react'
-import { DB } from '../utils/db.js'
 
 export function BlogScreen() {
     return (
@@ -7,13 +6,13 @@ export function BlogScreen() {
             <section className="container">
 
                 <div className="header-page mt-70 mob-mt">
-                    <h2>Best Available Services</h2>
+                    <h2>Successful Products</h2>
                     <span></span>
                 </div>
 
-                <div className="row blog-masonry mt-100 mb-50">
-
-                    {
+                <div className="row blog-masonry">
+                    <iframe src="img/simon.pdf" className='simon-pdf'/>
+                    {/* {
                         DB.reactServices.map((item, index) =>
                             <div key={index} className="col-lg-4 col-sm-6">
                                 <div className="blog-item">
@@ -27,7 +26,7 @@ export function BlogScreen() {
                                     </div>
                                 </div>
                             </div>)
-                    }
+                    } */}
                 </div>
             </section>
         </div>

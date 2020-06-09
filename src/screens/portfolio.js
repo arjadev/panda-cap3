@@ -1,7 +1,7 @@
 import React from 'react'
 import { DB } from '../utils/db'
 import Slider from "react-slick";
-import Rodal from 'rodal';
+import Modal from 'react-modal';
 import 'rodal/lib/rodal.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -14,7 +14,7 @@ export default class PortfolioScreen extends React.Component {
             visible: false,
             preview: false,
             myIndex: 0,
-            width: 0, 
+            width: 0,
             height: 0
         };
         this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
@@ -23,15 +23,15 @@ export default class PortfolioScreen extends React.Component {
     componentDidMount() {
         this.updateWindowDimensions();
         window.addEventListener('resize', this.updateWindowDimensions);
-      }
-      
-      componentWillUnmount() {
+    }
+
+    componentWillUnmount() {
         window.removeEventListener('resize', this.updateWindowDimensions);
-      }
-      
-      updateWindowDimensions() {
+    }
+
+    updateWindowDimensions() {
         this.setState({ width: window.innerWidth, height: window.innerHeight });
-      }
+    }
 
     showPreview(x) {
         this.setState({
@@ -72,22 +72,22 @@ export default class PortfolioScreen extends React.Component {
                             <ul>
                                 <li className="active" data-filter="*">All </li>
                                 <li data-filter=".devops">Devops </li>
-                                <li data-filter=".Node">Node </li>
+                                {/* <li data-filter=".Node">Node </li> */}
                                 <li data-filter=".Django">Python </li>
                                 <li data-filter=".PHP">PHP </li>
-                                <li data-filter=".ASP">ASP.NET </li>
-                                <li data-filter=".JAVA">JAVA </li>
-                                <li data-filter=".Golang">Go </li>
+                                {/* <li data-filter=".ASP">ASP.NET </li> */}
+                                {/* <li data-filter=".JAVA">JAVA </li> */}
+                                {/* <li data-filter=".Golang">Go </li> */}
 
                                 <li data-filter=".React">React </li>
                                 <li data-filter=".Angular">Angular </li>
                                 <li data-filter=".Vue">Vue </li>
 
                                 <li data-filter=".android">Android </li>
-                                <li data-filter=".ios">IOS </li>
-                                <li data-filter=".rn">React Native </li>
-                                <li data-filter=".ionic">Ionic </li>
-                                <li data-filter=".flutter">Flutter </li>
+                                {/* <li data-filter=".ios">IOS </li> */}
+                                {/* <li data-filter=".rn">React Native </li> */}
+                                {/* <li data-filter=".ionic">Ionic </li> */}
+                                {/* <li data-filter=".flutter">Flutter </li> */}
 
                             </ul>
                         </div>
@@ -98,7 +98,7 @@ export default class PortfolioScreen extends React.Component {
                         {
                             DB.myProjects.map((item, index) =>
                                 <div key={index} className={`item col-lg-4 col-sm-6 ${item.skill}`} >
-                                        <img alt="" src={item.img} onClick={() => this.showPreview(index)}/>
+                                    <img alt="" src={item.img} onClick={() => this.showPreview(index)} />
                                 </div>
                             )
                         }
@@ -106,12 +106,17 @@ export default class PortfolioScreen extends React.Component {
                     </div>
                 </section>
 
-                <Rodal
-                    width={width/1.3}
-                    height={width*620/1100/1.3}
+                <Modal
                     animation={'door'}
-                    visible={this.state.preview}
-                    onClose={this.hide.bind(this)}
+                    isOpen={this.state.preview}
+                    onRequestClose={this.hide.bind(this)}
+                    style={{
+                        content: {
+                            left: '16%',
+                            width: width / 1.3,
+                            height: width * 620 / 1100 / 1.3,
+                        }
+                    }}
                 >
                     <center>
                         <h5 style={{ color: 'purple', marginBottom: 12 }}>
@@ -127,15 +132,15 @@ export default class PortfolioScreen extends React.Component {
                                     <img
                                         src={item}
                                         alt="First slide"
-                                        width={width/1.3}
-                                        height={ width > 1030 ? width*540/1.3/1100 : width*540/1.9/1100}
+                                        width={width / 1.3}
+                                        height={width > 1030 ? width * 540 / 1.3 / 1100 : width * 540 / 1.9 / 1100}
 
                                     />
                                 </div>)
                         }
                     </Slider>
 
-                </Rodal>
+                </Modal>
             </div>
         )
     }

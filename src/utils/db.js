@@ -300,14 +300,14 @@ export const DB = {
                 'img/portfolio/vue_lifestyle/3.jpg',
             ]
         },
-        {
-            name: 'Devops',
-            skill: 'devops',
-            img: 'img/portfolio/devops/1.webp',
-            apps: [
-                'img/portfolio/devops/1.webp',
-            ]
-        },
+        // {
+        //     name: 'Devops',
+        //     skill: 'devops',
+        //     img: 'img/portfolio/devops/1.webp',
+        //     apps: [
+        //         'img/portfolio/devops/1.webp',
+        //     ]
+        // },
         {
             name: 'android',
             skill: 'android',
@@ -337,16 +337,16 @@ export const DB = {
                 'img/portfolio/devops_aws/2.webp',
             ]
         },
-        {
-            name: 'djangoReact',
-            skill: 'Django',
-            img: 'img/portfolio/djangoReact/1.webp',
-            apps: [
-                'img/portfolio/djangoReact/1.webp',
-                'img/portfolio/djangoReact/2.webp',
-                'img/portfolio/djangoReact/3.webp',
-            ]
-        },
+        // {
+        //     name: 'djangoReact',
+        //     skill: 'Django',
+        //     img: 'img/portfolio/djangoReact/1.webp',
+        //     apps: [
+        //         'img/portfolio/djangoReact/1.webp',
+        //         'img/portfolio/djangoReact/2.webp',
+        //         'img/portfolio/djangoReact/3.webp',
+        //     ]
+        // },
         {
             name: 'entvbox',
             skill: 'Django',
@@ -399,26 +399,26 @@ export const DB = {
                 'img/portfolio/internship/Screenshot_14.png',
             ]
         },
-        {
-            name: 'Laravel and Vue',
-            skill: 'Vue',
-            img: 'img/portfolio/Laravel_vue/1.webp',
-            apps: [
-                'img/portfolio/Laravel_vue/1.webp',
-                'img/portfolio/Laravel_vue/2.webp',
-                'img/portfolio/Laravel_vue/3.webp',
-            ]
-        },
-        {
-            name: 'Laravel_React',
-            skill: 'Angular',
-            img: 'img/portfolio/Laravel_React/1.webp',
-            apps: [
-                'img/portfolio/Laravel_React/1.webp',
-                'img/portfolio/Laravel_React/2.webp',
-                'img/portfolio/Laravel_React/3.webp',
-            ]
-        },
+        // {
+        //     name: 'Laravel and Vue',
+        //     skill: 'Vue',
+        //     img: 'img/portfolio/Laravel_vue/1.webp',
+        //     apps: [
+        //         'img/portfolio/Laravel_vue/1.webp',
+        //         'img/portfolio/Laravel_vue/2.webp',
+        //         'img/portfolio/Laravel_vue/3.webp',
+        //     ]
+        // },
+        // {
+        //     name: 'Laravel_React',
+        //     skill: 'Angular',
+        //     img: 'img/portfolio/Laravel_React/1.webp',
+        //     apps: [
+        //         'img/portfolio/Laravel_React/1.webp',
+        //         'img/portfolio/Laravel_React/2.webp',
+        //         'img/portfolio/Laravel_React/3.webp',
+        //     ]
+        // },
     ],
 
     reactServices: [
