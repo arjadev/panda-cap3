@@ -78,7 +78,7 @@ export function ResumeScreen() {
                                 <h4 className="progress-title">Angular.JS </h4>
                                 <div className="progress">
                                     <div className="progress-bar width-85" >
-                                        <div className="progress-value">85% </div>
+                                        <div className="progress-value">96% </div>
                                     </div>
                                 </div>
                             </div>
@@ -86,8 +86,8 @@ export function ResumeScreen() {
                             <div className="skill-item">
                                 <h4 className="progress-title">React.JS </h4>
                                 <div className="progress">
-                                    <div className="progress-bar width-90" >
-                                        <div className="progress-value">90% </div>
+                                    <div className="progress-bar width-99" >
+                                        <div className="progress-value">99% </div>
                                     </div>
                                 </div>
                             </div>
@@ -95,8 +95,8 @@ export function ResumeScreen() {
                             <div className="skill-item">
                                 <h4 className="progress-title">Vue.JS </h4>
                                 <div className="progress">
-                                    <div className="progress-bar width-77" >
-                                        <div className="progress-value">77% </div>
+                                    <div className="progress-bar width-99" >
+                                        <div className="progress-value">99% </div>
                                     </div>
                                 </div>
                             </div>
@@ -106,25 +106,25 @@ export function ResumeScreen() {
                             <div className="row">
 
                                 <div className="col-lg-6 col-sm-6">
-                                    <div className="chart" data-percent="92" data-bar-color="#fff"> 92%
+                                    <div className="chart" data-percent="99" data-bar-color="#fff"> 99%
 															<p>Node </p>
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-sm-6">
-                                    <div className="chart" data-percent="88" data-bar-color="#fff"> 88%
+                                    <div className="chart" data-percent="96" data-bar-color="#fff"> 96%
 															<p>PHP </p>
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-sm-6">
-                                    <div className="chart" data-percent="87" data-bar-color="#fff"> 87%
+                                    <div className="chart" data-percent="97" data-bar-color="#fff"> 97%
 															<p>Java Spring </p>
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-sm-6">
-                                    <div className="chart" data-percent="95" data-bar-color="#fff"> 95%
+                                    <div className="chart" data-percent="100" data-bar-color="#fff"> 100%
 															<p>Python </p>
                                     </div>
                                 </div>
