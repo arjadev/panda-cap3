@@ -1,10 +1,10 @@
 export const DB = {
-    username: "Simon Fuller",
-    city: "Mallorca, Spain",
+    username: "Eugene Mac",
+    city: "ShenYang, China",
     myskills: ['Devops developer', 'Backend developer', 'Frontend developer', 'Mobile developer'],
     git: 'https://github.com/kingofdevs',
     // eslint-disable-next-line
-    description: 'I’m Simon Fuller, a full-stack developer, experienced in building complex mobile and web application. \n \
+    description: 'I’m Eugene Mac, a full-stack developer, experienced in building complex mobile and web application. \n \
     My experience ranges from creating real-time location based mobile apps to building scalable apps with react-native. \n \
     I am happy working solo as well as in a team where the members are effective and efficient coders too. \n \
     \n \
