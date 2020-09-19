@@ -462,7 +462,7 @@ export const DB = {
             job: "Create a react native mobile application prototype from designs",
             avatar: "img/testimonials/testimonial-1.jpg",
             // eslint-disable-next-line
-            description: "Simon is the best developer I have worked with on this platform and has incredible talent for react native. \
+            description: "Eugene is the best developer I have worked with on this platform and has incredible talent for react native. \
             \
             He is extremely responsive and turns around high quality work fast.\
             \
@@ -473,7 +473,7 @@ export const DB = {
             name: "Johan K",
             job: "ASP.net Core and Angular developer required",
             avatar: "img/testimonials/testimonial-1.jpg",
-            description: "Simon is very knowledgeable and willing to assist. I recommend him."
+            description: "Eugene is very knowledgeable and willing to assist. I recommend him."
         },
 
         {
