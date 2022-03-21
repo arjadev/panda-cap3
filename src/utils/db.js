@@ -22,13 +22,13 @@ export const DB = {
         { title: 'Forest', icon: 'fas fa-tree' },
     ],
     myServices: [
+        { title: 'Web3/NFT', icon: 'fa fa-paint-brush', 'description': 'Web3, Ether.js, Terra.js, Uniswap, PancakeSwap, ERC-20, ERC-721, ERC-1155, Truffle, Hardhat, Metamask, Ganache, Openzepplin, Solidity' },
         { title: 'React-Native', icon: 'fab fa-react', 'description': 'react-native-cli/Expo/Expokit' },
         { title: 'Python Django/Flask', icon: 'fab fa-python', 'description': 'I\'m proficient in Django and Django Rest Framework' },
         { title: 'React JS', icon: 'fab fa-reacteurope', 'description': 'I\'m familiar with react-redux, redux-saga, hooks, hoc, UI libraries like Material UI, Semantic UI, Ant design etc and rest api integration using Axios.' },
         { title: 'Google Cloud Platform', icon: 'fas fa-cloud', 'description': 'I\'m familiar with Google Appengine, Computer Engine, Kubernetes Engine, CloudSql, Cloud Storage, CloudFunction, BigQuery and BigTable, Google Datastore.' },
         { title: 'Angular JS', icon: 'fab fa-angular', 'description': 'Angular 6,7,8/NgRx' },
         { title: 'Vue JS', icon: 'fab fa-vuejs', 'description': 'VueJS/Vuex, Nuxt.js frameworks' },
-        { title: 'Web3/NFT', icon: 'fa fa-paint-brush', 'description': 'Web3, Ether.js, Terra.js, Uniswap, PancakeSwap, ERC-20, ERC-721, ERC-1155, Truffle, Hardhat, Metamask, Ganache, Openzepplin, Solidity' },
         { title: 'Mobile App', icon: 'fab fa-app-store', 'description': 'JAVA & Kotlin, Swift & Objective C, PhoneGap, IPhone SDK, Android SDK, OpenGL ES' },
         { title: 'Server side', icon: 'fas fa-server', 'description': 'Google Cloud(App Engine and Computer Engine), AWS, Microsoft Azure, various VPS and CPanel' },
         { title: 'Real Estate Platform', icon: 'fas fa-cogs', 'description': 'I can manage various roles include admin, owner and client and implement payment gateway, custom map component etc.' },
@@ -48,7 +48,7 @@ export const DB = {
     myResum: [
         {
             title: 'Miami Service Cargo',
-            calendar: 'Jan 2012 – May 2013',
+            calendar: 'Jan 2015 – May 2017',
             place: 'Core Mobile Developer',
             description: [
                 'hosting:google cloud compute engine',
@@ -62,7 +62,7 @@ export const DB = {
         },
         {
             title: 'Western LTD',
-            calendar: 'Oct 2015 – Jan 2016',
+            calendar: 'Oct 2017 – Jan 2018',
             place: 'Java Developer',
             description: [
                 'Development of applications and software to increase department efficiency',
@@ -73,7 +73,7 @@ export const DB = {
         },
         {
             title: 'LootBoxCash',
-            calendar: 'Apr 2017 – Nov 2017',
+            calendar: 'Apr 2018 – Nov 2019',
             place: 'ReactJs Developer',
             description: [
                 'React / Redux UI development of features',
@@ -82,7 +82,7 @@ export const DB = {
         },
         {
             title: 'DesertSoftware',
-            calendar: 'Dec 2017 – Aug 2019',
+            calendar: 'Dec 2019 – Aug 2020',
             place: 'PHP & Vue & react-native & MySQL & HTML Developer',
             description: [
                 'Application development using Laravel5 and Vue.js(Vuex)',
@@ -93,21 +93,19 @@ export const DB = {
             ]
         },
         {
-            title: 'Chessclips',
-            calendar: 'Jan 2018 – Mar 2018',
-            place: 'PHP/Laravel Developer',
+            title: 'Metaslate',
+            calendar: 'Apr 2020 – Nov 2021',
+            place: 'Web3/Moralis/React.js Developer',
             description: [
-                'Built Chess game website using pgnViewJS engine and php frameworks',
+                'Built Chess game website using NFT engine and Moralis SDK',
             ]
         },
         {
-            title: 'Cookaid',
-            calendar: 'Feb 2018 – Sep 2018',
-            place: 'Node & react-native Developer',
+            title: 'Metasalt',
+            calendar: 'Dec 2019 – Jan 2022',
+            place: 'Moralis & react-native Developer',
             description: [
-                'Built sushi restaurant mobile app using expo/react-native/redux/node.js/expres.js',
-                'Amazon EC2, DynamoDB, S3 and CI/CD',
-                'Integrated with Restful, GraphQL, Relay.js, AWS-Amplify'
+                'Built sushi restaurant mobile app using solidity/react-native/redux/moralis/web3',
             ]
         },
     ],
