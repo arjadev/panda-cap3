@@ -1,10 +1,10 @@
 export const DB = {
-    username: "Eugene Mac",
-    city: "ShenYang, China",
-    myskills: ['Devops developer', 'Backend developer', 'Frontend developer', 'Mobile developer'],
-    git: 'https://github.com/kingofdevs',
+    username: "Chun Jomari Cinto",
+    city: "Baccor, Philiipines",
+    myskills: ['Web3 developer', 'React.js developer', 'Solidity developer', 'NFT developer'],
+    git: 'https://github.com/cocadev',
     // eslint-disable-next-line
-    description: 'I’m Eugene Mac, a full-stack developer, experienced in building complex mobile and web application. \n \
+    description: 'I’m Chun, a full-stack developer, experienced in building complex Web3/Moralis/Smart Contracts and web frontend/backend. \n \
     My experience ranges from creating real-time location based mobile apps to building scalable apps with react-native. \n \
     I am happy working solo as well as in a team where the members are effective and efficient coders too. \n \
     \n \
@@ -28,7 +28,7 @@ export const DB = {
         { title: 'Google Cloud Platform', icon: 'fas fa-cloud', 'description': 'I\'m familiar with Google Appengine, Computer Engine, Kubernetes Engine, CloudSql, Cloud Storage, CloudFunction, BigQuery and BigTable, Google Datastore.' },
         { title: 'Angular JS', icon: 'fab fa-angular', 'description': 'Angular 6,7,8/NgRx' },
         { title: 'Vue JS', icon: 'fab fa-vuejs', 'description': 'VueJS/Vuex, Nuxt.js frameworks' },
-        { title: 'Responsive Web Design', icon: 'fa fa-paint-brush', 'description': 'PSD to HTML/CSS, PSD to HTML5/CSS3, PSD to Responsive HTML, Website PSD mockup design, Twitter bootstrap HTML' },
+        { title: 'Web3/NFT', icon: 'fa fa-paint-brush', 'description': 'Web3, Ether.js, Terra.js, Uniswap, PancakeSwap, ERC-20, ERC-721, ERC-1155, Truffle, Hardhat, Metamask, Ganache, Openzepplin, Solidity' },
         { title: 'Mobile App', icon: 'fab fa-app-store', 'description': 'JAVA & Kotlin, Swift & Objective C, PhoneGap, IPhone SDK, Android SDK, OpenGL ES' },
         { title: 'Server side', icon: 'fas fa-server', 'description': 'Google Cloud(App Engine and Computer Engine), AWS, Microsoft Azure, various VPS and CPanel' },
         { title: 'Real Estate Platform', icon: 'fas fa-cogs', 'description': 'I can manage various roles include admin, owner and client and implement payment gateway, custom map component etc.' },
@@ -462,7 +462,7 @@ export const DB = {
             job: "Create a react native mobile application prototype from designs",
             avatar: "img/testimonials/testimonial-1.jpg",
             // eslint-disable-next-line
-            description: "Eugene is the best developer I have worked with on this platform and has incredible talent for react native. \
+            description: "Chun is the best developer I have worked with on this platform and has incredible talent for react native. \
             \
             He is extremely responsive and turns around high quality work fast.\
             \
@@ -471,9 +471,9 @@ export const DB = {
 
         {
             name: "Johan K",
-            job: "ASP.net Core and Angular developer required",
+            job: "Web3 and Smart Contract developer required",
             avatar: "img/testimonials/testimonial-1.jpg",
-            description: "Eugene is very knowledgeable and willing to assist. I recommend him."
+            description: "Chun is very knowledgeable and willing to assist. I recommend him."
         },
 
         {
