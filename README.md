@@ -1,7 +1,5 @@
 
-Simon Fsclnd Resume from Spain
-
-<a href="https://simonfsclnd.now.sh/">Live Demo</a>
+Chun Portofolio
 
 <img src="screens/1.png" />
 
