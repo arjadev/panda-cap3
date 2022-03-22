@@ -1,5 +1,5 @@
 
-Chun Portofolio
+Chun Portofolio 2
 
 <img src="screens/1.png" />
 
