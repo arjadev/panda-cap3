@@ -1,16 +1,10 @@
 export const DB = {
-    username: "Chun Jomari Cinto",
+    username: "Chris Ian Cuya",
     city: "Baccor, Philiipines",
-    myskills: ['Web3 developer', 'React.js developer', 'Solidity developer', 'NFT developer'],
+    myskills: ['Blockchain developer', 'React/React-Native developer', 'ML/AI developer', 'Devops Engineer'],
     git: 'https://github.com/cocadev',
     // eslint-disable-next-line
-    description: 'I’m Chun, a full-stack developer, experienced in building complex Web3/Moralis/Smart Contracts and web frontend/backend. \n \
-    My experience ranges from creating real-time location based mobile apps to building scalable apps with react-native. \n \
-    I am happy working solo as well as in a team where the members are effective and efficient coders too. \n \
-    \n \
-    I am very well experienced with the React ecosystem notably with redux (thunk/saga), I also have experience working with BAAS services like Firebase. \n \
-    As for the server side, I am very confident about my backend knowledge in Node & Python. \n \
-    I am very confident about my English.',
+    description: 'Chris has 12 years of experience in mobile app and blockchain development, specializing in merging Web2 and Web3 experiences. He ensures KLIK’s platform is user-friendly while supporting advanced blockchain features like NFT tokenization and staking.',
     myInterests: [
         { title: 'Music', icon: 'fas fa-music' },
         { title: 'Travelling', icon: 'fas fa-route' },
@@ -61,9 +55,9 @@ export const DB = {
             ]
         },
         {
-            title: 'Western LTD',
+            title: 'quantaex',
             calendar: 'Oct 2017 – Jan 2018',
-            place: 'Java Developer',
+            place: 'https://quantaex.com/',
             description: [
                 'Development of applications and software to increase department efficiency',
                 'Worked within team from scratching to development of company specific software',
@@ -81,31 +75,57 @@ export const DB = {
             ]
         },
         {
-            title: 'DesertSoftware',
+            title: 'Respro',
             calendar: 'Dec 2019 – Aug 2020',
-            place: 'PHP & Vue & react-native & MySQL & HTML Developer',
+            place: 'https://resprofsp.com/',
+            links: [
+                'https://resprofsp.com/',
+                'https://apps.apple.com/ee/app/respro-safety-audits/id1551820801',
+                'https://editor.resprohealthandsafety.com/', //jade@zaoasiancafe.com, test
+                'https://app.resprohealthandsafety.com/',
+                'https://dne2nrwmy0hcq.cloudfront.net/',
+                'https://mm-respro-prod.s3.amazonaws.com/pdfs/2024-10-30-da242f19-2bd6-4f75-9fca-bd680003552d-da242f19-2bd6-4f75-9fca-bd680003552d.pdf',
+                'https://mm-respro-prod.s3.amazonaws.com/pdfs/2024-10-30-88df67c9-099e-4ec3-83c2-bc58c34ed996-88df67c9-099e-4ec3-83c2-bc58c34ed996.pdf',
+                'https://mm-respro-prod.s3.amazonaws.com/pdfs/2024-10-30-efa509b6-5fa5-49e1-901e-22a3e650e034-efa509b6-5fa5-49e1-901e-22a3e650e034.pdf'
+            ],
             description: [
-                'Application development using Laravel5 and Vue.js(Vuex)',
-                'React-Native & Expo both android and ios mobile app',
-                'PHP 7 and related tool (Composer, PHPUnit)',
-                'Integrating with 3rd party APIs',
-                'Proactively identify system enhancements'
+                'Vue.js(Vuex)',
+                'Python FastAPI',
             ]
         },
         {
-            title: 'Metaslate',
+            title: 'GetImmersion',
             calendar: 'Apr 2020 – Nov 2021',
             place: 'Web3/Moralis/React.js Developer',
+            links: [
+                'https://www.getimmersion.com/',
+                'https://sharing.getimmersion.com/analyze/5bdaba40-5333-4cdc-98b6-8b1c40e62523',
+                'https://sharing.getimmersion.com/analyze/4c988430-98ac-4d1b-b175-5a8f05983c95',
+                'https://3351742.fs1.hubspotusercontent-na1.net/hubfs/3351742/Value%20Measurement%20Overview.pdf',
+                'https://app.getimmersion.com/',
+                'https://dev.getimmersion.com/',
+                'https://qa.getimmersion.com/',
+                'https://timebel.vercel.app/home'
+            ],
             description: [
                 'Built Chess game website using NFT engine and Moralis SDK',
             ]
         },
         {
-            title: 'Metasalt',
-            calendar: 'Dec 2019 – Jan 2022',
-            place: 'Moralis & react-native Developer',
+            title: 'KLIK',
+            calendar: 'Dec 2021 – Oct 2024',
+            place: 'https://klik.cool/',
+            links: [
+                'http://joinklik.com/',
+                'https://saltapp.io/',
+                'https://metasalt.io/',
+                'https://play.google.com/store/apps/details?id=com.klikmobile',
+                'https://apps.apple.com/ph/app/klik-social/id6471041690?platform=iphone',
+                'https://scribehow.com/page/KLIK_How_Tos__EUmaZAOxTNqQ8ZJT4NdjXg',
+                'https://ucarecdn.com/a42c49af-c9bd-474f-ab02-c534416b594e/KLIK_Intro.pdf'
+            ],
             description: [
-                'Built sushi restaurant mobile app using solidity/react-native/redux/moralis/web3',
+                'Built blockchain mobile app using solidity/react-native/redux/moralis/web3',
             ]
         },
     ],
@@ -460,7 +480,7 @@ export const DB = {
             job: "Create a react native mobile application prototype from designs",
             avatar: "img/testimonials/testimonial-1.jpg",
             // eslint-disable-next-line
-            description: "Chun is the best developer I have worked with on this platform and has incredible talent for react native. \
+            description: "Chris is the best developer I have worked with on this platform and has incredible talent for react native. \
             \
             He is extremely responsive and turns around high quality work fast.\
             \
@@ -471,7 +491,7 @@ export const DB = {
             name: "Johan K",
             job: "Web3 and Smart Contract developer required",
             avatar: "img/testimonials/testimonial-1.jpg",
-            description: "Chun is very knowledgeable and willing to assist. I recommend him."
+            description: "Chris is very knowledgeable and willing to assist. I recommend him."
         },
 
         {
