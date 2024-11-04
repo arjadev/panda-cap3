@@ -11,7 +11,7 @@ export function BlogScreen() {
         </div>
 
         <div className="row blog-masonry">
-          <iframe src="img/simon.pdf" className='simon-pdf' title="Example content"/>
+          <iframe src="img/chris.pdf" className='simon-pdf' title="Example content"/>
           {/* {
                         DB.reactServices.map((item, index) =>
                             <div key={index} className="col-lg-4 col-sm-6">

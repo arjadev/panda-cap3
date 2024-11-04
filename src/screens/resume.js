@@ -112,8 +112,8 @@ export function ResumeScreen() {
                 </div>
 
                 <div className="col-lg-6 col-sm-6">
-                  <div className="chart" data-percent="86" data-bar-color="#fff"> 86%
-                    <p>PHP </p>
+                  <div className="chart" data-percent="100" data-bar-color="#fff"> 100%
+                    <p>Vue </p>
                   </div>
                 </div>
 

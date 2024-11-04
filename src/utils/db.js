@@ -89,8 +89,7 @@ export const DB = {
                 'https://mm-respro-prod.s3.amazonaws.com/pdfs/2024-10-30-efa509b6-5fa5-49e1-901e-22a3e650e034-efa509b6-5fa5-49e1-901e-22a3e650e034.pdf'
             ],
             description: [
-                'Vue.js(Vuex)',
-                'Python FastAPI',
+                'Respro is an experienced, trusted resource providing brand protection public health services to a wide range of industries. Protect your brand and control your future with Respro\'s health, safety, and crisis management solutions.',
             ]
         },
         {
@@ -108,7 +107,7 @@ export const DB = {
                 'https://timebel.vercel.app/home'
             ],
             description: [
-                'Built Chess game website using NFT engine and Moralis SDK',
+                'Experiences worth a damn are grounded in what people actually value - and so are the choices they make. Value Measurement reveals the real-time unconscious impact of any experience, so you can forecast what people will remember and the choices they\'ll make with a stunning degree of accuracy. ',
             ]
         },
         {
@@ -131,9 +130,9 @@ export const DB = {
     ],
     myEducation: [
         {
-            title: 'University of Salamanca',
-            calendar: '2007 - 2012',
-            description: 'As Masters in Computer Science I have graduated at University of Salamanca from 2007 to 2012.'
+            title: 'Cavite State University',
+            calendar: '2011 - 2016',
+            description: 'As Masters in Computer Science I have graduated at University of Cavite State from 2011 to 2016.'
         }
     ],
     myProjects: [
@@ -172,116 +171,109 @@ export const DB = {
             ]
         },
         {
-            name: 'Realtor',
+            name: 'Respro',
+            skill: 'Vue',
+            img: 'img/portfolio/respro/01.png',
+            apps: [
+                'img/portfolio/respro/01.png',
+                'img/portfolio/respro/02.png',
+                'img/portfolio/respro/03.png',
+                'img/portfolio/respro/04.png',
+                'img/portfolio/respro/05.png',
+                'img/portfolio/respro/06.png',
+                'img/portfolio/respro/07.png',
+            ]
+        },
+        {
+            name: 'Getimmersion',
             skill: 'React',
-            img: 'img/portfolio/realtor/0.jpg',
+            img: 'img/portfolio/getimmersion/1.png',
             apps: [
-                'img/portfolio/realtor/1.jpg',
-                'img/portfolio/realtor/2.jpg',
-                'img/portfolio/realtor/3.jpg',
+                'img/portfolio/getimmersion/1.png',
+                'img/portfolio/getimmersion/2.png',
+                'img/portfolio/getimmersion/3.png',
+                'img/portfolio/getimmersion/4.png',
+                'img/portfolio/getimmersion/5.png',
+                'img/portfolio/getimmersion/6.png',
             ]
         },
         {
-            name: 'Obe',
+            name: 'Flexitreks',
+            skill: 'Vue',
+            img: 'img/portfolio/flexitreks/1.png',
+            apps: [
+                'img/portfolio/flexitreks/1.png',
+                'img/portfolio/flexitreks/2.png',
+                'img/portfolio/flexitreks/3.png',
+                'img/portfolio/flexitreks/4.png',
+                'img/portfolio/flexitreks/5.png',
+                'img/portfolio/flexitreks/6.png',
+            ]
+        },
+        {
+            name: 'Klik',
             skill: 'React',
-            img: 'img/portfolio/obe/0.jpg',
+            img: 'img/portfolio/klik/Screenshot_1.png',
             apps: [
-                'img/portfolio/obe/1.jpg',
-                'img/portfolio/obe/2.jpg',
-                'img/portfolio/obe/3.jpg',
-                'img/portfolio/obe/4.jpg',
-                'img/portfolio/obe/5.jpg',
-                'img/portfolio/obe/6.jpg',
-                'img/portfolio/obe/7.jpg',
-                'img/portfolio/obe/8.jpg',
+                'img/portfolio/klik/Screenshot_1.png',
+                'img/portfolio/klik/Screenshot_2.png',
+                'img/portfolio/klik/Screenshot_3.png',
+                'img/portfolio/klik/Screenshot_4.png',
+                'img/portfolio/klik/Screenshot_5.png',
+                'img/portfolio/klik/Screenshot_6.png',
+                'img/portfolio/klik/Screenshot_7.png',
+                'img/portfolio/klik/Screenshot_8.png',
+                'img/portfolio/klik/Screenshot_9.png',
+                'img/portfolio/klik/Screenshot_10.png',
             ]
         },
         {
-            name: 'Festfood',
+            name: 'Wyn',
             skill: 'React',
-            img: 'img/portfolio/festfood/0.jpg',
+            img: 'img/portfolio/wyn/1.png',
             apps: [
-                'img/portfolio/festfood/1.jpg',
-                'img/portfolio/festfood/2.jpg',
-                'img/portfolio/festfood/3.jpg',
-                'img/portfolio/festfood/4.jpg',
-                'img/portfolio/festfood/5.jpg',
+                'img/portfolio/wyn/1.png',
+                'img/portfolio/wyn/2.png',
+                'img/portfolio/wyn/3.png',
+                'img/portfolio/wyn/4.png',
             ]
         },
         {
-            name: 'Stanza',
+            name: 'Wagerr',
             skill: 'React',
-            img: 'img/portfolio/stanza/0.jpg',
+            img: 'img/portfolio/wagerr/1.png',
             apps: [
-                'img/portfolio/stanza/1.JPG',
-                'img/portfolio/stanza/2.JPG',
-                'img/portfolio/stanza/3.JPG',
-                'img/portfolio/stanza/4.JPG',
-                'img/portfolio/stanza/5.JPG',
-                'img/portfolio/stanza/6.JPG',
-                'img/portfolio/stanza/7.JPG',
+                'img/portfolio/wagerr/1.png',
+                'img/portfolio/wagerr/2.png',
+                'img/portfolio/wagerr/3.png',
+                'img/portfolio/wagerr/4.png',
+                'img/portfolio/wagerr/5.png',
             ]
         },
         {
-            name: 'Vistajet',
+            name: 'Lowkel',
             skill: 'React',
-            img: 'img/portfolio/vistajet/0.jpg',
+            img: 'img/portfolio/lowkel/1.png',
             apps: [
-                'img/portfolio/vistajet/1.jpg',
-                'img/portfolio/vistajet/2.jpg',
-                'img/portfolio/vistajet/3.jpg',
-                'img/portfolio/vistajet/4.jpg',
-                'img/portfolio/vistajet/5.jpg',
+                'img/portfolio/lowkel/1.png',
+                'img/portfolio/lowkel/2.png',
+                'img/portfolio/lowkel/3.png',
+                'img/portfolio/lowkel/4.png',
+                'img/portfolio/lowkel/5.png',
             ]
         },
         {
-            name: 'WaltorDrake',
-            skill: 'Angular',
-            img: 'img/portfolio/walterdrake/0.jpg',
+            name: 'kolink_umbra',
+            skill: 'React',
+            img: 'img/portfolio/kolink_umbra/6.png',
             apps: [
-                'img/portfolio/walterdrake/1.jpg',
-                'img/portfolio/walterdrake/2.jpg',
-                'img/portfolio/walterdrake/3.jpg',
-                'img/portfolio/walterdrake/4.jpg',
-                'img/portfolio/walterdrake/5.jpg',
-                'img/portfolio/walterdrake/6.jpg',
-                'img/portfolio/walterdrake/7.jpg',
-            ]
-        },
-        {
-            name: 'VPL',
-            skill: 'PHP',
-            img: 'img/portfolio/vpl/0.jpg',
-            apps: [
-                'img/portfolio/vpl/1.jpg',
-                'img/portfolio/vpl/2.jpg',
-                'img/portfolio/vpl/3.jpg',
-                'img/portfolio/vpl/4.jpg',
-                'img/portfolio/vpl/5.jpg',
-                'img/portfolio/vpl/6.jpg',
-                'img/portfolio/vpl/7.jpg',
-            ]
-        },
-        {
-            name: 'ERP School',
-            skill: 'Django',
-            img: 'img/portfolio/dj_erp/0.jpg',
-            apps: [
-                'img/portfolio/dj_erp/1.jpg',
-                'img/portfolio/dj_erp/2.jpg',
-                'img/portfolio/dj_erp/3.jpg',
-                'img/portfolio/dj_erp/4.jpg',
-                'img/portfolio/dj_erp/5.jpg',
-                'img/portfolio/dj_erp/6.jpg',
-                'img/portfolio/dj_erp/7.jpg',
-                'img/portfolio/dj_erp/8.jpg',
-                'img/portfolio/dj_erp/9.jpg',
-                'img/portfolio/dj_erp/10.jpg',
-                'img/portfolio/dj_erp/11.jpg',
-                'img/portfolio/dj_erp/12.jpg',
-                'img/portfolio/dj_erp/13.jpg',
-                'img/portfolio/dj_erp/14.jpg',
-                'img/portfolio/dj_erp/15.jpg',
+                'img/portfolio/kolink_umbra/1.png',
+                'img/portfolio/kolink_umbra/2.png',
+                'img/portfolio/kolink_umbra/3.png',
+                'img/portfolio/kolink_umbra/4.png',
+                'img/portfolio/kolink_umbra/5.png',
+                'img/portfolio/kolink_umbra/6.png',
+                'img/portfolio/kolink_umbra/7.png',
             ]
         },
         {
@@ -309,13 +301,11 @@ export const DB = {
             ]
         },
         {
-            name: 'Lifestyle',
-            skill: 'Vue',
-            img: 'img/portfolio/vue_lifestyle/0.jpg',
+            name: 'prowd',
+            skill: 'RN',
+            img: 'img/portfolio/prowd/1.jpg',
             apps: [
-                'img/portfolio/vue_lifestyle/1.jpg',
-                'img/portfolio/vue_lifestyle/2.jpg',
-                'img/portfolio/vue_lifestyle/3.jpg',
+                'img/portfolio/prowd/1.jpg',
             ]
         },
         // {
