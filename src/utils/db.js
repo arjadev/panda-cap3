@@ -1,7 +1,7 @@
 export const DB = {
     username: "Chris Ian Cuya",
     city: "Baccor, Philiipines",
-    myskills: ['Blockchain developer', 'React/React-Native developer', 'ML/AI developer', 'Devops Engineer'],
+    myskills: ['Blockchain developer', 'Vue/React developer', 'ML/AI developer', 'Full-Stack Developer'],
     git: 'https://github.com/cocadev',
     // eslint-disable-next-line
     description: 'Chris has 12 years of experience in mobile app and blockchain development, specializing in merging Web2 and Web3 experiences. He ensures KLIK’s platform is user-friendly while supporting advanced blockchain features like NFT tokenization and staking.',
@@ -21,8 +21,8 @@ export const DB = {
         { title: 'Python Django/Flask', icon: 'fab fa-python', 'description': 'I\'m proficient in Django and Django Rest Framework' },
         { title: 'React JS', icon: 'fab fa-reacteurope', 'description': 'I\'m familiar with react-redux, redux-saga, hooks, hoc, UI libraries like Material UI, Semantic UI, Ant design etc and rest api integration using Axios.' },
         { title: 'Google Cloud Platform', icon: 'fas fa-cloud', 'description': 'I\'m familiar with Google Appengine, Computer Engine, Kubernetes Engine, CloudSql, Cloud Storage, CloudFunction, BigQuery and BigTable, Google Datastore.' },
-        { title: 'Angular JS', icon: 'fab fa-angular', 'description': 'Angular 6,7,8/NgRx' },
-        { title: 'Vue JS', icon: 'fab fa-vuejs', 'description': 'VueJS/Vuex, Nuxt.js frameworks' },
+        { title: 'Angular JS', icon: 'fab fa-angular', 'description': 'Angular 16, 17/NgRx' },
+        { title: 'Vue JS', icon: 'fab fa-vuejs', 'description': 'VueJS/Vuex, Nuxt.js, Vuetify, Quasar frameworks' },
         { title: 'Mobile App', icon: 'fab fa-app-store', 'description': 'JAVA & Kotlin, Swift & Objective C, PhoneGap, IPhone SDK, Android SDK, OpenGL ES' },
         { title: 'Server side', icon: 'fas fa-server', 'description': 'Google Cloud(App Engine and Computer Engine), AWS, Microsoft Azure, various VPS and CPanel' },
         { title: 'Real Estate Platform', icon: 'fas fa-cogs', 'description': 'I can manage various roles include admin, owner and client and implement payment gateway, custom map component etc.' },
