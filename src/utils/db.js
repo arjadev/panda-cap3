@@ -356,24 +356,30 @@ export const DB = {
         //     ]
         // },
         {
-            name: 'entvbox',
-            skill: 'Django',
-            img: 'img/portfolio/entvbox/Capture.PNG',
+            name: 'rad',
+            skill: 'Vue',
+            img: 'img/portfolio/rad/1.png',
             apps: [
-                'img/portfolio/entvbox/Capture.PNG',
-                'img/portfolio/entvbox/Capture1.PNG',
-                'img/portfolio/entvbox/Capture2.PNG',
-                'img/portfolio/entvbox/Capture3.PNG',
-                'img/portfolio/entvbox/Capture4.PNG',
-                'img/portfolio/entvbox/Capture5.PNG',
+                'img/portfolio/rad/1.png',
+                'img/portfolio/rad/2.png',
+                'img/portfolio/rad/3.png',
+                'img/portfolio/rad/4.png',
+                'img/portfolio/rad/5.png',
+                'img/portfolio/rad/6.png',
             ]
         },
         {
-            name: 'flyLuso',
-            skill: 'android',
-            img: 'img/portfolio/flyLuso/1.webp',
+            name: 'lazylion',
+            skill: 'Vue',
+            img: 'img/portfolio/lazylion/1.png',
             apps: [
-                'img/portfolio/flyLuso/1.webp',
+                'img/portfolio/lazylion/1.png',
+                'img/portfolio/lazylion/2.png',
+                'img/portfolio/lazylion/3.png',
+                'img/portfolio/lazylion/4.png',
+                'img/portfolio/lazylion/5.png',
+                'img/portfolio/lazylion/6.png',
+                'img/portfolio/lazylion/7.png',
             ]
         },
         {
